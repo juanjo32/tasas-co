@@ -45,30 +45,35 @@ jobs:
 
       - run: python -m pytest -q
 
-      - name: Descargar datos oficiales
-        if: github.event_name != 'push'
+      # Cada fuente se guarda apenas termina: si una corrida larga se corta, no se pierde lo descargado
+      - name: TRM y usura
+        if: github.event_name != 'push' && (github.event.inputs.solo == '' || contains(github.event.inputs.solo, 'trm') || contains(github.event.inputs.solo, 'tibc'))
         env:
           SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
-        run: python -m tasasco actualizar --solo "${{ github.event.inputs.solo }}"
+        run: python -m tasasco actualizar --solo trm,tibc && scripts/guardar.sh "TRM y usura"
+
+      - name: CDT
+        if: github.event_name != 'push' && (github.event.inputs.solo == '' || contains(github.event.inputs.solo, 'cdt'))
+        env:
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+        run: python -m tasasco actualizar --solo cdt && scripts/guardar.sh "CDT"
+
+      - name: Crédito
+        if: github.event_name != 'push' && (github.event.inputs.solo == '' || contains(github.event.inputs.solo, 'credito'))
+        env:
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+        run: python -m tasasco actualizar --solo credito && scripts/guardar.sh "crédito"
 
       - name: Calcular métricas
+        if: always()
         run: python -m tasasco construir
 
-      - name: Guardar cambios
-        if: github.event_name != 'push'
-        run: |
-          git config user.name "tasas-co-bot"
-          git config user.email "tasas-co-bot@users.noreply.github.com"
-          git add data MOVIMIENTOS.md site/public/data
-          if git diff --cached --quiet; then
-            echo "Sin cambios en los datos"
-          else
-            git commit -m "datos: actualización $(TZ=America/Bogota date +'%Y-%m-%d %H:%M')"
-            git pull --rebase --autostash
-            git push
-          fi
+      - name: Guardar métricas
+        if: always() && github.event_name != 'push'
+        run: scripts/guardar.sh "métricas"
 
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: datos-sitio
           path: site/public/data
@@ -76,7 +81,8 @@ jobs:
   sitio:
     needs: datos
     runs-on: ubuntu-latest
-    if: needs.datos.outputs.tiene_sitio == 'si'
+    # Publica aunque una fuente haya fallado: el sitio muestra lo último disponible de cada una
+    if: always() && needs.datos.result != 'cancelled' && needs.datos.outputs.tiene_sitio == 'si'
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
