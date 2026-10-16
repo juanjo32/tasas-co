@@ -169,7 +169,9 @@ def limpiar_entidad(nombre: Any) -> str:
     import re
     n = " ".join(str(nombre or "").replace('"', " ").split())
     n = re.sub(r"\s*\(.*$", "", n)            # "(en adelante el Banco o la Sociedad)"
-    n = re.split(r"\s+o\s+", n)[0]             # "Finandina Bic o Banco Finandina Bic o Finandina"
+    n = re.split(r"\s+o\s+|\s*;\s*", n)[0]    # "Finandina Bic o Banco Finandina…", "Itaú; Banco Itaú"
+    n = re.sub(r"\s+Compa[ñn][ií]a de Financiamiento\b", " CF", n, flags=re.I)
+    n = re.sub(r"^NU\b", "Nu", n)
     n = n.strip(" ,")
     for suf in _SUFIJOS:
         if n.upper().endswith(suf):

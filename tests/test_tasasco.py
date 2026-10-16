@@ -79,6 +79,7 @@ def test_tibc_y_usura():
     ("Finandina Bic o Banco Finandina Bic o Finandina", "Finandina BIC"), ('"Bold C.F."', "Bold CF"),
     ('BANCO UNIÓN S.A. (en adelante el "Banco" o la "Sociedad")', "Banco Unión"),
     ("BANCO AGRARIO DE COLOMBIA o BANAGRARIO", "Banco Agrario de Colombia"),
+    ("Itaú; Banco Itaú", "Itaú"), ("NU Colombia Compañía de Financiamiento", "Nu Colombia CF"),
 ])
 def test_limpiar_entidad(entrada, salida):
     assert fuentes.limpiar_entidad(entrada) == salida
