@@ -3,7 +3,9 @@
 set -euo pipefail
 git config user.name "tasas-co-bot"
 git config user.email "tasas-co-bot@users.noreply.github.com"
-git add data MOVIMIENTOS.md site/public/data 2>/dev/null || true
+for ruta in data MOVIMIENTOS.md site/public/data; do
+  [ -e "$ruta" ] && git add "$ruta"
+done
 if git diff --cached --quiet; then
   echo "Sin cambios: $1"
   exit 0
