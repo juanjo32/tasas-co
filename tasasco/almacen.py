@@ -64,3 +64,11 @@ def max_fecha(carpeta: Path) -> str | None:
         if filas:
             return max(f["fecha"] for f in filas)
     return None
+
+
+def min_fecha(carpeta: Path) -> str | None:
+    for ruta in sorted(carpeta.glob("*.csv")):
+        filas = leer(ruta)
+        if filas:
+            return min(f["fecha"] for f in filas)
+    return None

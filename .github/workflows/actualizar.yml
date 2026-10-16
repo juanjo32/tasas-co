@@ -25,7 +25,7 @@ concurrency:
 jobs:
   datos:
     runs-on: ubuntu-latest
-    timeout-minutes: 180   # la primera corrida descarga el histórico completo
+    timeout-minutes: 90    # el histórico de crédito se rellena por partes (25 min por corrida)
     outputs:
       tiene_sitio: ${{ steps.sitio.outputs.existe }}
     steps:

@@ -34,27 +34,44 @@ def actualizar_cdt(soda: Soda, data: Path, hoy: date) -> None:
         log(f"CDT {a}..{b}: {n} filas")
 
 
-def actualizar_credito(soda: Soda, data: Path, hoy: date) -> None:
+def actualizar_credito(soda: Soda, data: Path, hoy: date, presupuesto_min: float = 25.0,
+                       soda_lento: Soda | None = None) -> None:
+    """Crédito en dos direcciones.
+
+    - Hacia adelante: lo reciente sale del dataset de los últimos dos meses, que responde en segundos.
+    - Hacia atrás: el histórico (desde jul-2022) no está indexado por fecha y una sola semana puede tardar
+      varios minutos en agregarse. Se rellena progresivamente, semana por semana y con presupuesto de tiempo,
+      para completarlo a lo largo de varias corridas sin castigar la API.
+    """
+    import time
     carpeta = data / "credito"
+    reciente_min = fuentes.min_fecha_credito(soda, fuentes.CREDITO_RECIENTE)
     ultima = almacen.max_fecha(carpeta)
-    hist_max = fuentes.max_fecha_credito(soda, fuentes.CREDITO_HISTORICO)
-    if ultima:
-        desde = date.fromisoformat(ultima) - timedelta(days=21)
-    else:
-        desde = fuentes.min_fecha_credito(soda, fuentes.CREDITO_HISTORICO) or date(2022, 7, 1)
-    for a, b in fuentes.meses(desde, hoy):
-        # El histórico llega hasta hist_max; lo posterior está en el dataset de los últimos dos meses
-        tramos = []
-        if hist_max and a <= hist_max:
-            tramos.append((fuentes.CREDITO_HISTORICO, a, min(b, hist_max)))
-        if not hist_max or b > hist_max:
-            tramos.append((fuentes.CREDITO_RECIENTE, max(a, (hist_max or a) + timedelta(days=1)), b))
-        for dataset, x, y in tramos:
-            if x > y:
-                continue
-            filas = fuentes.descargar_credito(soda, dataset, x, y)
-            n = almacen.fusionar(carpeta, filas, CAMPOS_CREDITO, ORDEN_CREDITO, "anio")
-            log(f"Crédito {dataset} {x}..{y}: {n} filas")
+    desde = date.fromisoformat(ultima) - timedelta(days=21) if ultima else (reciente_min or hoy - timedelta(days=62))
+    desde = max(desde, reciente_min) if reciente_min else desde
+    filas = fuentes.descargar_credito(soda, fuentes.CREDITO_RECIENTE, desde, hoy)
+    log(f"Crédito reciente {desde}..{hoy}: {almacen.fusionar(carpeta, filas, CAMPOS_CREDITO, ORDEN_CREDITO, 'anio')} filas")
+
+    # Relleno hacia atrás
+    hist_min = fuentes.min_fecha_credito(soda, fuentes.CREDITO_HISTORICO)
+    primera = almacen.min_fecha(carpeta)
+    if not hist_min or not primera:
+        return
+    inicio = time.monotonic()
+    semana = date.fromisoformat(primera) - timedelta(days=7)
+    lento = soda_lento or soda
+    while semana >= hist_min and (time.monotonic() - inicio) / 60 < presupuesto_min:
+        try:
+            # ventana de 7 días: si un festivo corrió el corte de viernes a jueves, igual se encuentra
+            filas = fuentes.descargar_credito(lento, fuentes.CREDITO_HISTORICO, semana - timedelta(days=6), semana)
+        except RuntimeError as e:
+            log(f"::warning::Histórico de crédito {semana}: {e}. Se reintenta en la próxima corrida.")
+            return
+        n = almacen.fusionar(carpeta, filas, CAMPOS_CREDITO, ORDEN_CREDITO, "anio")
+        log(f"Crédito histórico semana al {semana}: {n} filas")
+        semana -= timedelta(days=7)
+    if semana < hist_min:
+        log("Histórico de crédito completo")
 
 
 def actualizar_trm(soda: Soda, data: Path) -> None:
@@ -80,7 +97,7 @@ def actualizar(data: Path, solo: set[str] | None = None, hoy: date | None = None
     hoy = hoy or date.today()
     soda = Soda()
     pasos = {"trm": lambda: actualizar_trm(soda, data), "tibc": lambda: actualizar_tibc(soda, data),
-             "cdt": lambda: actualizar_cdt(soda, data, hoy), "credito": lambda: actualizar_credito(soda, data, hoy)}
+             "cdt": lambda: actualizar_cdt(soda, data, hoy), "credito": lambda: actualizar_credito(soda, data, hoy, soda_lento=Soda(timeout=900, pausa=1.0))}
     errores = []
     for nombre, paso in pasos.items():
         if solo and nombre not in solo:

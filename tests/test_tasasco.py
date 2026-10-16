@@ -98,12 +98,14 @@ def test_fusionar_reemplaza_fechas(tmp_path):
     assert almacen.max_fecha(tmp_path) == "2026-10-14"
 
 
-def test_credito_usa_historico_y_reciente(tmp_path):
+def test_credito_reciente_y_relleno_hacia_atras(tmp_path):
     soda = SodaFalsa({fuentes.CREDITO_HISTORICO: [], fuentes.CREDITO_RECIENTE: CREDITO_REAL})
     actualizar.actualizar_credito(soda, tmp_path, date(2026, 10, 16))
-    usados = [(d, p["$where"]) for d, p in soda.consultas if "$group" in p]
-    assert any(d == fuentes.CREDITO_HISTORICO for d, _ in usados)
-    assert any(d == fuentes.CREDITO_RECIENTE and "2026-08-01" in w for d, w in usados)
+    agregadas = [(d, p["$where"]) for d, p in soda.consultas if "$group" in p]
+    assert agregadas[0][0] == fuentes.CREDITO_RECIENTE                      # primero lo reciente (rápido)
+    historicas = [w for d, w in agregadas if d == fuentes.CREDITO_HISTORICO]
+    assert historicas and "2026-09-19" in historicas[0]                      # luego semana a semana hacia atrás
+    assert all("fecha_corte >= '2026-07" not in w or "2026-07-03" <= w[18:28] for w in historicas)
     assert almacen.max_fecha(tmp_path / "credito") == "2026-10-02"
 
 

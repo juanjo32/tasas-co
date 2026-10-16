@@ -26,7 +26,7 @@ flowchart LR
   H[GitHub Actions<br/>7:17 a.m. y 6:17 p.m.] -.-> B
 ```
 
-1. **Extracción** ([`tasasco/fuentes.py`](tasasco/fuentes.py)). La fuente de tasas de crédito trae unas **900.000 filas por semana**, desagregadas por sexo, municipio, CIIU, garantía, plazo y más. En vez de descargarlas, la consulta SoQL agrega en el servidor (`sum(tasa × monto) / sum(monto)` agrupado por semana, entidad y producto) y baja unas 1.000. El histórico completo cabe en pocos MB.
+1. **Extracción** ([`tasasco/fuentes.py`](tasasco/fuentes.py), [`tasasco/actualizar.py`](tasasco/actualizar.py)). La fuente de tasas de crédito trae unas **900.000 filas por semana**, desagregadas por sexo, municipio, CIIU, garantía, plazo y más. En vez de descargarlas, la consulta SoQL agrega en el servidor (`sum(tasa × monto) / sum(monto)` agrupado por semana, entidad y producto) y baja unas 1.000. El histórico completo cabe en pocos MB. El dataset histórico no está indexado por fecha: agregar una sola semana puede tardar más de 4 minutos. Por eso se rellena hacia atrás por partes, con un presupuesto de 25 minutos por corrida y guardando cada semana, mientras lo reciente sale en segundos del dataset de los últimos dos meses.
 2. **Almacenamiento** ([`tasasco/almacen.py`](tasasco/almacen.py)). CSV particionados por mes (CDT) o por año (crédito), con orden estable. Cada actualización reemplaza por fecha lo que la fuente haya corregido, y el diff de cada commit muestra solo las filas nuevas. Es *git scraping*: el historial del repo es el historial de las tasas.
 3. **Métricas** ([`tasasco/construir.py`](tasasco/construir.py)). Promedios ponderados por monto, ranking por plazo y producto, cambios a cuatro semanas y movimientos destacados.
 4. **Sitio** ([`site/`](site)). TypeScript sin framework y gráficas SVG propias, con cruz y tooltip, navegación por teclado y modo oscuro. Pesa unos 10 KB comprimido.
@@ -61,7 +61,7 @@ curl -s https://juanjo32.github.io/tasas-co/data/resumen.json | jq '.cdt.plazos[
 ```bash
 pip install -e ".[dev]"
 python -m pytest -q                 # pruebas sin red
-python -m tasasco actualizar        # la primera vez descarga el histórico (30-60 min)
+python -m tasasco actualizar        # CDT y TRM completos; el crédito histórico se rellena 25 min por corrida
 python -m tasasco construir         # genera site/public/data y MOVIMIENTOS.md
 
 cd site && npm ci && npm run dev    # sitio en http://localhost:5173
