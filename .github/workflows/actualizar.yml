@@ -26,8 +26,13 @@ jobs:
   datos:
     runs-on: ubuntu-latest
     timeout-minutes: 180   # la primera corrida descarga el histórico completo
+    outputs:
+      tiene_sitio: ${{ steps.sitio.outputs.existe }}
     steps:
       - uses: actions/checkout@v4
+
+      - id: sitio
+        run: echo "existe=$([ -f site/package.json ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
         with:
@@ -68,7 +73,7 @@ jobs:
   sitio:
     needs: datos
     runs-on: ubuntu-latest
-    if: hashFiles('site/package.json') != ''
+    if: needs.datos.outputs.tiene_sitio == 'si'
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
