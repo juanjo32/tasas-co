@@ -30,6 +30,8 @@ jobs:
       tiene_sitio: ${{ steps.sitio.outputs.existe }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # siempre la última versión (incluye los datos que acaba de guardar el bot)
 
       - id: sitio
         run: echo "existe=$([ -f site/package.json ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
@@ -53,6 +55,7 @@ jobs:
         run: python -m tasasco construir
 
       - name: Guardar cambios
+        if: github.event_name != 'push'
         run: |
           git config user.name "tasas-co-bot"
           git config user.email "tasas-co-bot@users.noreply.github.com"
@@ -79,6 +82,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/download-artifact@v4
         with:

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tasas CO · CDT, crédito, usura y TRM</title>
+  <meta name="description" content="Cuánto paga un CDT y cuánto cobra un crédito en cada banco de Colombia, con datos oficiales de la Superintendencia Financiera actualizados a diario." />
+  <meta property="og:title" content="Tasas CO" />
+  <meta property="og:description" content="CDT, crédito de consumo, usura y TRM en Colombia. Datos oficiales, actualizados a diario." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E5A43'/%3E%3Cpath d='M8 22 L14 14 L18 18 L24 9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="saltar" href="#cdt">Ir al contenido</a>
+  <header class="cabecera">
+    <a class="marca" href="./">Tasas CO</a>
+    <nav aria-label="Secciones">
+      <a href="#cdt">CDT</a>
+      <a href="#credito">Crédito</a>
+      <a href="#trm">TRM</a>
+      <a href="#movimientos">Movimientos</a>
+      <a href="#datos">Datos</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-busy="true">
+    <section class="hero" aria-labelledby="hero-frase">
+      <p class="cargando" id="hero-frase">Cargando las tasas de hoy…</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Datos de la Superintendencia Financiera de Colombia publicados en <a href="https://www.datos.gov.co">datos.gov.co</a>.
+      Código abierto en <a href="https://github.com/juanjo32/tasas-co">GitHub</a>. Hecho por
+      <a href="https://github.com/juanjo32">Juan José Giraldo</a>. No es asesoría financiera.</p>
+  </footer>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
