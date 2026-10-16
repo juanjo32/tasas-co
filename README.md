@@ -79,4 +79,12 @@ Todas publicadas por la Superintendencia Financiera de Colombia en datos.gov.co:
 
 ## Licencia
 
-Código bajo [MIT](LICENSE). Los datos son públicos y pertenecen a sus fuentes. Esto no es asesoría financiera.
+**Código:** [MIT](LICENSE).
+
+**Datos** (`data/` y `site/public/data/`): obras derivadas de conjuntos publicados por la *Superintendencia Financiera de Colombia - SUPERFINANCIERA, Bogotá D.C.* en datos.gov.co bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es), y por eso se distribuyen bajo esa misma licencia. Cambios realizados: agregación diaria o semanal, promedios ponderados por monto, limpieza de nombres de entidades y cálculo de la usura (1,5 × interés bancario corriente). Si reutilizas estos datos, cita a la Superintendencia Financiera y a este repositorio, y comparte tus derivados con la misma licencia.
+
+Esto no es asesoría financiera. La Superintendencia Financiera no respalda este proyecto.
+
+## Seguridad
+
+Ver [SECURITY.md](SECURITY.md).

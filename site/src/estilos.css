@@ -1,3 +1,4 @@
+@import "@fontsource-variable/archivo/standard.css";
 /* Tasas CO. Papel frío, tinta verde oscura, una sola familia (Archivo) jugando con el ancho. */
 :root {
   color-scheme: light;
@@ -16,7 +17,7 @@
   --foco: #0e5a43;
   --ancho-texto: 68ch;
   --ancho: 1080px;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: "Archivo Variable", system-ui, sans-serif;
   font-variation-settings: "wdth" 100;
   font-size: 17px;
   line-height: 1.5;

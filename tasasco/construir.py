@@ -266,6 +266,13 @@ def pesos(x: float | None, dec: int = 2) -> str:
     return "—" if x is None else f"${_es(x, dec)}"
 
 
+def md(texto: Any) -> str:
+    """Escapa texto de la fuente para Markdown: un nombre no puede colar enlaces, imágenes, HTML ni romper tablas."""
+    import re
+    t = re.sub(r"[\x00-\x1f]", " ", str(texto))
+    return re.sub(r"([\\`*_{}\[\]()#+!|<>~])", r"\\\1", t)
+
+
 def reporte_md(r: dict[str, Any]) -> str:
     l = [f"# Movimientos de tasas en Colombia", "",
          f"_Actualizado: {r['generado'][:16].replace('T', ' ')} (hora Colombia). "
@@ -285,7 +292,7 @@ def reporte_md(r: dict[str, Any]) -> str:
         for p in c["plazos"]:
             top = p["entidades"][0] if p["entidades"] else None
             l.append(f"| {p['nombre']} | {pct(p['promedio_sistema'])} | {pp(p['cambio_pp'])} | "
-                     f"{pct(top['tasa_ea']) if top else '—'} | {top['entidad'] if top else '—'} |")
+                     f"{pct(top['tasa_ea']) if top else '—'} | {md(top['entidad']) if top else '—'} |")
         l.append("")
     k = r.get("credito") or {}
     if k.get("productos"):
@@ -293,13 +300,13 @@ def reporte_md(r: dict[str, Any]) -> str:
               "| Producto | Promedio | Cambio 4 sem. | Más barato | Entidad |", "|---|---|---|---|---|"]
         for p in k["productos"]:
             top = p["entidades"][0] if p["entidades"] else None
-            l.append(f"| {p['producto']} | {pct(p['promedio_sistema'])} | {pp(p['cambio_pp'])} | "
-                     f"{pct(top['tasa_ea']) if top else '—'} | {top['entidad'] if top else '—'} |")
+            l.append(f"| {md(p['producto'])} | {pct(p['promedio_sistema'])} | {pp(p['cambio_pp'])} | "
+                     f"{pct(top['tasa_ea']) if top else '—'} | {md(top['entidad']) if top else '—'} |")
         l.append("")
     m = r.get("movimientos") or {}
     for titulo, clave in (("Mayores subidas (4 semanas)", "subidas"), ("Mayores bajadas (4 semanas)", "bajadas")):
         if m.get(clave):
-            l += [f"## {titulo}", ""] + [f"- **{x['entidad']}**, {x['grupo']}: {pct(x['tasa_ea'])} ({pp(x['cambio_pp'])})"
+            l += [f"## {titulo}", ""] + [f"- **{md(x['entidad'])}**, {md(x['grupo'])}: {pct(x['tasa_ea'])} ({pp(x['cambio_pp'])})"
                                          for x in m[clave]] + [""]
     l += ["---", "Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% "
           "del monto del plazo o producto. No es asesoría financiera."]

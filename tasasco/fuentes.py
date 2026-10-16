@@ -178,6 +178,8 @@ def limpiar_entidad(nombre: Any) -> str:
             n = n[: -len(suf)]
             break
     n = n.strip(" .,")
+    n = n.lstrip("=+-@\t\r ")  # evita inyección de fórmulas si alguien abre los CSV en Excel
+    n = re.sub(r"[\x00-\x1f]", "", n)
     n = re.sub(r"\bBic\b", "BIC", n)
     for suf in (" C.F", " C. F", " Cf"):  # "Nequi C.F." y "IRIS CF." quedan igual: "... CF"
         if n.endswith(suf):

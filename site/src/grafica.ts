@@ -57,7 +57,9 @@ export function graficaLineas(contenedor: HTMLElement, series: Serie[], op: Opci
     lienzo.replaceChildren();
     tip.hidden = true;
 
-    const visibles = actuales.map((s) => ({ ...s, puntos: s.puntos.filter((p): p is [string, number] => p[1] != null) }))
+    const valido = (p: [string, number | null]): p is [string, number] =>
+      typeof p[0] === "string" && /^\d{4}-\d{2}-\d{2}$/.test(p[0]) && typeof p[1] === "number" && Number.isFinite(p[1]);
+    const visibles = actuales.map((s) => ({ ...s, puntos: s.puntos.filter(valido) }))
       .filter((s) => s.puntos.length > 1);
     leyenda.innerHTML = visibles.length > 1
       ? visibles.map((s) => `<li><span class="muestra ${s.clase}"></span>${esc(s.nombre)}</li>`).join("")
@@ -169,7 +171,7 @@ export function graficaLineas(contenedor: HTMLElement, series: Serie[], op: Opci
         marcadores[k].setAttribute("visibility", "visible");
         filas.push(`<div class="tip-fila"><span class="muestra ${s.clase}"></span><span>${esc(s.nombre)}</span><b>${esc((op.formatoTooltip ?? op.formatoY)(v))}</b></div>`);
       });
-      tip.innerHTML = `<div class="tip-fecha">${esc(fechaC(f))} ${f.slice(0, 4)}</div>${filas.join("")}`;
+      tip.innerHTML = `<div class="tip-fecha">${esc(fechaC(f))} ${esc(f.slice(0, 4))}</div>${filas.join("")}`;
       tip.hidden = false;
       const izq = x + 14 + tip.offsetWidth > ancho ? x - tip.offsetWidth - 14 : x + 14;
       tip.style.transform = `translate(${Math.max(0, izq)}px, ${m.t}px)`;
@@ -206,6 +208,8 @@ export function graficaLineas(contenedor: HTMLElement, series: Serie[], op: Opci
 
 /** Recorta una serie a los últimos `dias` días (o la deja completa si es null). */
 export function recortar(puntos: Punto[], dias: number | null): Punto[] {
+  puntos = (Array.isArray(puntos) ? puntos : []).filter((p) => Array.isArray(p) && typeof p[0] === "string"
+    && /^\d{4}-\d{2}-\d{2}$/.test(p[0]) && !Number.isNaN(Date.parse(p[0] + "T00:00:00Z")));
   if (!dias || !puntos.length) return puntos;
   const fin = Date.parse(puntos[puntos.length - 1][0] + "T00:00:00Z");
   const desde = new Date(fin - dias * 864e5).toISOString().slice(0, 10);

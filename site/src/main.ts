@@ -126,7 +126,7 @@ function renderCDT(r: Resumen, series: SeriesCDT) {
   const intro = document.createElement("p");
   intro.className = "intro";
   intro.innerHTML = `Tasa efectiva anual promedio de los CDT que cada entidad emitió en los últimos
-    ${r.cdt.ventana_dias ?? 7} días al ${esc(fecha(r.cdt.fecha))}, ponderada por monto. Solo entran entidades con al menos
+    ${Number(r.cdt.ventana_dias) || 7} días al ${esc(fecha(r.cdt.fecha))}, ponderada por monto. Solo entran entidades con al menos
     0,3% del monto captado en ese plazo.`;
   const tablaCaja = document.createElement("div");
   const graficaCaja = document.createElement("div");
@@ -298,7 +298,7 @@ function renderMovimientos(r: Resumen): HTMLElement | null {
 
 function renderDatos(r: Resumen): HTMLElement {
   const sec = seccion("datos", "Datos abiertos");
-  const base = new URL("data/", location.href).href;
+  const base = esc(new URL("data/", location.href).href);
   sec.insertAdjacentHTML("beforeend", `
     <p class="intro">Todo lo que ves aquí sale de archivos públicos que puedes usar en tus propios proyectos, sin registro.
       Se actualizan dos veces al día desde las fuentes de la Superintendencia Financiera.</p>
@@ -332,9 +332,16 @@ async function iniciar() {
       json<Resumen>("resumen.json"), json<SeriesCDT>("cdt_series.json"), json<Record<string, Punto[]>>("credito_series.json"),
       json<Punto[]>("trm.json"), json<HistoricoUsura>("usura.json"),
     ]);
-    const { hero, seccion: secCDT } = renderCDT(r, cdtS);
-    app.replaceChildren(...[hero, secCDT, renderCredito(r, credS, usura), renderTRM(r, trm), renderMovimientos(r), renderDatos(r)]
-      .filter((x): x is HTMLElement => !!x));
+    // Cada sección se construye aislada: un dato malo en una no tumba las demás
+    const seguro = <T,>(nombre: string, f: () => T): T | null => {
+      try { return f(); } catch (e) { console.error(`Sección ${nombre}:`, e); return null; }
+    };
+    const cdt = seguro("CDT", () => renderCDT(r, cdtS));
+    const partes = [cdt?.hero, cdt?.seccion, seguro("crédito", () => renderCredito(r, credS, usura)),
+      seguro("TRM", () => renderTRM(r, trm)), seguro("movimientos", () => renderMovimientos(r)), seguro("datos", () => renderDatos(r))]
+      .filter((x): x is HTMLElement => !!x);
+    if (!partes.length) throw new Error("ninguna sección se pudo construir");
+    app.replaceChildren(...partes);
   } catch (e) {
     app.innerHTML = `<section class="hero"><p class="frase">No se pudieron cargar los datos.</p>
       <p class="apoyo">Recarga la página. Si el problema sigue, revisa el estado de la última actualización en

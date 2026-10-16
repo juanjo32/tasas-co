@@ -177,3 +177,16 @@ def test_construir_resumen(tmp_path):
 def test_construir_sin_datos(tmp_path):
     r = construir.construir(tmp_path / "vacio", tmp_path / "out")
     assert r["trm"] is None and r["cdt"]["plazos"] == [] and r["credito"]["productos"] == []
+
+
+# --------------------------------------------------------------------------- seguridad
+
+def test_nombre_no_inyecta_formulas_csv():
+    assert not fuentes.limpiar_entidad('=HYPERLINK("http://x","clic")').startswith("=")
+    assert not fuentes.limpiar_entidad("+cmd|' /C calc'!A0").startswith("+")
+    assert "\n" not in fuentes.limpiar_entidad("Banco\nFalso")
+
+
+def test_reporte_md_escapa_markdown():
+    txt = construir.md("[clic](http://malo) ![x](http://rastreo.png) <script>|")
+    assert "[clic](" not in txt and "![x](" not in txt and "<script>" not in txt and "\\|" in txt

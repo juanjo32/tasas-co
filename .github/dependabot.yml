@@ -1,0 +1,23 @@
+# Actualizaciones de seguridad y de versiones. Los PR de Dependabot no reciben secretos del repo.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      acciones: { patterns: ["*"] }
+
+  - package-ecosystem: npm
+    directory: /site
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      npm: { patterns: ["*"] }
+
+  - package-ecosystem: pip
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      python: { patterns: ["*"] }
