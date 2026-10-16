@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-16 11:25 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-10-16 11:35 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -25,8 +25,8 @@ _Actualizado: 2026-10-16 11:25 (hora Colombia). Fuente: Superintendencia Financi
 
 | Producto | Promedio | Cambio 4 sem. | Más barato | Entidad |
 |---|---|---|---|---|
-| Tarjeta de crédito (ingresos > 2 SMMLV) | 18,23% | −0,08 p.p. | 13,61% | Bancolombia |
-| Tarjeta de crédito (ingresos ≤ 2 SMMLV) | 21,95% | −0,13 p.p. | 13,59% | Banco Davivienda |
+| Tarjeta de crédito \(ingresos \> 2 SMMLV\) | 18,23% | −0,08 p.p. | 13,61% | Bancolombia |
+| Tarjeta de crédito \(ingresos ≤ 2 SMMLV\) | 21,95% | −0,13 p.p. | 13,59% | Banco Davivienda |
 | Libre inversión | 22,02% | −0,14 p.p. | 18,90% | Confiar |
 | Libranza | 18,27% | −0,03 p.p. | 15,58% | Banco Pichincha |
 | Vehículo | 20,83% | −0,14 p.p. | 17,68% | Bancolombia |
