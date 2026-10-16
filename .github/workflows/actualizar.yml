@@ -1,0 +1,102 @@
+name: Actualizar datos y sitio
+
+on:
+  schedule:
+    # 7:17 a.m. y 6:17 p.m. hora Colombia (UTC-5), todos los días
+    - cron: "17 12,23 * * *"
+  workflow_dispatch:
+    inputs:
+      solo:
+        description: "Fuentes a actualizar (vacío = todas): trm,tibc,cdt,credito"
+        default: ""
+  push:
+    branches: [main]
+    paths: ["site/**", "tasasco/construir.py", ".github/workflows/actualizar.yml"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tasas-co
+  cancel-in-progress: false
+
+jobs:
+  datos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # la primera corrida descarga el histórico completo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e ".[dev]"
+
+      - run: python -m pytest -q
+
+      - name: Descargar datos oficiales
+        if: github.event_name != 'push'
+        env:
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+        run: python -m tasasco actualizar --solo "${{ github.event.inputs.solo }}"
+
+      - name: Calcular métricas
+        run: python -m tasasco construir
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "tasas-co-bot"
+          git config user.email "tasas-co-bot@users.noreply.github.com"
+          git add data MOVIMIENTOS.md site/public/data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos"
+          else
+            git commit -m "datos: actualización $(TZ=America/Bogota date +'%Y-%m-%d %H:%M')"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: datos-sitio
+          path: site/public/data
+
+  sitio:
+    needs: datos
+    runs-on: ubuntu-latest
+    if: hashFiles('site/package.json') != ''
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: datos-sitio
+          path: site/public/data
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Construir sitio
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

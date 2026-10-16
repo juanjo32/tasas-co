@@ -1,0 +1,12 @@
+[project]
+name = "tasasco"
+version = "0.1.0"
+description = "Tracker abierto de tasas de interés en Colombia (CDT, crédito, usura, TRM) con datos oficiales"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31", "pandas>=2.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
