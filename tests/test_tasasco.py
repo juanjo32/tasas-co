@@ -75,7 +75,10 @@ def test_tibc_y_usura():
 
 @pytest.mark.parametrize("entrada,salida", [
     ("Banco de Bogotá S.A.", "Banco de Bogotá"), ("BANCO CONTACTAR S.A.", "Banco Contactar"),
-    ("BBVA COLOMBIA", "BBVA Colombia"), ("IRIS CF.", "Iris CF"), ("Tuya", "Tuya"),
+    ("BBVA COLOMBIA", "BBVA Colombia"), ("IRIS CF.", "Iris CF"), ("Tuya", "Tuya"), ("Nequi C.F.", "Nequi CF"),
+    ("Finandina Bic o Banco Finandina Bic o Finandina", "Finandina BIC"), ('"Bold C.F."', "Bold CF"),
+    ('BANCO UNIÓN S.A. (en adelante el "Banco" o la "Sociedad")', "Banco Unión"),
+    ("BANCO AGRARIO DE COLOMBIA o BANAGRARIO", "Banco Agrario de Colombia"),
 ])
 def test_limpiar_entidad(entrada, salida):
     assert fuentes.limpiar_entidad(entrada) == salida
@@ -167,7 +170,7 @@ def test_construir_resumen(tmp_path):
     for nombre in ("resumen.json", "cdt_series.json", "credito_series.json", "trm.json", "usura.json"):
         assert json.loads((salida / nombre).read_text(encoding="utf-8")) is not None
     md = (tmp_path / "MOV.md").read_text(encoding="utf-8")
-    assert "Banco Medio" in md and "25,65%" in md
+    assert "Banco Medio" in md and "25,65%" in md and "p,p" not in md and "$3.170,46" in md
 
 
 def test_construir_sin_datos(tmp_path):

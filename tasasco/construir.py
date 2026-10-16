@@ -17,6 +17,8 @@ from typing import Any
 
 import pandas as pd
 
+from .fuentes import limpiar_entidad
+
 BOGOTA = timezone(timedelta(hours=-5))
 PLAZOS_CDT = [30, 60, 90, 180, 360, 361]
 PLAZO_NOMBRE = {30: "30 días", 60: "60 días", 90: "90 días", 120: "120 días", 180: "180 días",
@@ -44,6 +46,7 @@ def cargar(data: Path) -> dict[str, pd.DataFrame]:
             return pd.DataFrame()
         df = pd.concat((pd.read_csv(a, dtype={"codigo_entidad": str}) for a in archivos), ignore_index=True)
         df["fecha"] = pd.to_datetime(df["fecha"])
+        df["entidad"] = df["entidad"].map(limpiar_entidad)  # aplica reglas de nombre nuevas a datos ya guardados
         return df
 
     def archivo(nombre: str, fechas: list[str]) -> pd.DataFrame:
@@ -107,19 +110,25 @@ def serie_trm(trm: pd.DataFrame, desde: str = "2015-01-01") -> list[list[Any]]:
 # --------------------------------------------------------------------------- Usura
 
 def usura(tibc: pd.DataFrame, hoy: pd.Timestamp) -> dict[str, Any]:
+    """Usura vigente e histórico para las dos modalidades de consumo que usa el sitio."""
+    vacio = {"vigente": None, "vigente_bajo_monto": None, "historico": [], "historico_bajo_monto": []}
     if tibc.empty:
-        return {"vigente": None, "historico": []}
-    consumo = tibc[tibc["modalidad"].str.contains("CONSUMO", na=False)].sort_values("desde")
-    vigente = consumo[(consumo["desde"] <= hoy) & ((consumo["hasta"] >= hoy) | consumo["hasta"].isna())]
-    v = vigente.iloc[-1] if not vigente.empty else (consumo.iloc[-1] if not consumo.empty else None)
-    return {
-        "vigente": None if v is None else {
-            "modalidad": v["modalidad"], "desde": v["desde"].date().isoformat(),
-            "hasta": None if pd.isna(v["hasta"]) else v["hasta"].date().isoformat(),
-            "ibc_ea": r2(v["ibc_ea"]), "usura_ea": r2(v["usura_ea"]), "resolucion": str(v["resolucion"])},
-        "historico": [[d.date().isoformat(), r2(u)] for d, u in zip(consumo["desde"], consumo["usura_ea"])
-                      if d >= pd.Timestamp("2015-01-01")],
-    }
+        return vacio
+
+    def modalidad(nombre: str) -> tuple[dict[str, Any] | None, list[list[Any]]]:
+        d = tibc[tibc["modalidad"] == nombre].sort_values("desde")
+        if d.empty:
+            return None, []
+        vig = d[(d["desde"] <= hoy) & ((d["hasta"] >= hoy) | d["hasta"].isna())]
+        v = vig.iloc[-1] if not vig.empty else d.iloc[-1]
+        return ({"modalidad": v["modalidad"], "desde": v["desde"].date().isoformat(),
+                 "hasta": None if pd.isna(v["hasta"]) else v["hasta"].date().isoformat(),
+                 "ibc_ea": r2(v["ibc_ea"]), "usura_ea": r2(v["usura_ea"]), "resolucion": str(v["resolucion"])},
+                [[f.date().isoformat(), r2(u)] for f, u in zip(d["desde"], d["usura_ea"]) if f >= pd.Timestamp("2015-01-01")])
+
+    vo, ho = modalidad("CONSUMO Y ORDINARIO")
+    vb, hb = modalidad("CONSUMO BAJO MONTO")
+    return {"vigente": vo, "vigente_bajo_monto": vb, "historico": ho, "historico_bajo_monto": hb}
 
 
 # --------------------------------------------------------------------------- CDT
@@ -238,14 +247,23 @@ def movimientos(c: dict[str, Any], k: dict[str, Any], n: int = 5) -> dict[str, l
 
 # --------------------------------------------------------------------------- Reporte
 
+def _es(x: float, dec: int = 2) -> str:
+    """Formato colombiano: punto de miles, coma decimal."""
+    return f"{x:,.{dec}f}".replace(",", "_").replace(".", ",").replace("_", ".")
+
+
 def pp(x: float | None) -> str:
     if x is None:
         return "—"
-    return f"{x:+.2f} p.p.".replace(".", ",")
+    return ("+" if x > 0 else "−" if x < 0 else "") + _es(abs(x)) + " p.p."
 
 
 def pct(x: float | None) -> str:
-    return "—" if x is None else f"{x:.2f}%".replace(".", ",")
+    return "—" if x is None else f"{_es(x)}%"
+
+
+def pesos(x: float | None, dec: int = 2) -> str:
+    return "—" if x is None else f"${_es(x, dec)}"
 
 
 def reporte_md(r: dict[str, Any]) -> str:
@@ -254,8 +272,8 @@ def reporte_md(r: dict[str, Any]) -> str:
          f"Fuente: Superintendencia Financiera vía datos.gov.co._", ""]
     t = r.get("trm")
     if t:
-        l += ["## TRM", "", f"**${t['valor']:,.2f}** el {t['fecha']} · 30 días: {pct(t['var_30d_pct'])} · "
-              f"1 año: {pct(t['var_1a_pct'])} · rango 52 semanas: ${t['min_52s']:,.0f}–${t['max_52s']:,.0f}", ""]
+        l += ["## TRM", "", f"**{pesos(t['valor'])}** el {t['fecha']}. Variación en 30 días: {pct(t['var_30d_pct'])}; "
+              f"en un año: {pct(t['var_1a_pct'])}. Rango de 52 semanas: {pesos(t['min_52s'], 0)} a {pesos(t['max_52s'], 0)}.", ""]
     u = (r.get("usura") or {}).get("vigente")
     if u:
         l += ["## Tasa de usura (consumo y ordinario)", "",
@@ -281,7 +299,7 @@ def reporte_md(r: dict[str, Any]) -> str:
     m = r.get("movimientos") or {}
     for titulo, clave in (("Mayores subidas (4 semanas)", "subidas"), ("Mayores bajadas (4 semanas)", "bajadas")):
         if m.get(clave):
-            l += [f"## {titulo}", ""] + [f"- **{x['entidad']}** · {x['grupo']}: {pct(x['tasa_ea'])} ({pp(x['cambio_pp'])})"
+            l += [f"## {titulo}", ""] + [f"- **{x['entidad']}**, {x['grupo']}: {pct(x['tasa_ea'])} ({pp(x['cambio_pp'])})"
                                          for x in m[clave]] + [""]
     l += ["---", "Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% "
           "del monto del plazo o producto. No es asesoría financiera."]
@@ -298,11 +316,12 @@ def construir(data: Path, salida: Path, reporte: Path | None = None, ahora: date
         "generado": ahora.isoformat(timespec="seconds"),
         "fuente": "Superintendencia Financiera de Colombia vía datos.gov.co",
         "trm": resumen_trm(d["trm"]),
-        "usura": usura(d["tibc"], pd.Timestamp(ahora.date())),
+        "usura": usura(d["tibc"], pd.Timestamp(ahora.date())),  # históricos van solo en usura.json
         "cdt": {kk: v for kk, v in c.items() if not kk.startswith("serie")},
         "credito": {kk: v for kk, v in k.items() if not kk.startswith("serie")},
     }
     resumen["movimientos"] = movimientos(c, k)
+    historicos_usura = {k2: resumen["usura"].pop(k2) for k2 in ("historico", "historico_bajo_monto")}
     salida.mkdir(parents=True, exist_ok=True)
 
     def guardar(nombre: str, obj: Any) -> None:
@@ -312,7 +331,8 @@ def construir(data: Path, salida: Path, reporte: Path | None = None, ahora: date
     guardar("cdt_series.json", {"sistema": c["serie_sistema"], "entidades": c["serie_entidades"]})
     guardar("credito_series.json", k["serie_sistema"])
     guardar("trm.json", serie_trm(d["trm"]))
-    guardar("usura.json", resumen["usura"]["historico"])
+    guardar("usura.json", {"consumo_y_ordinario": historicos_usura["historico"],
+                           "consumo_bajo_monto": historicos_usura["historico_bajo_monto"]})
     if reporte:
         reporte.write_text(reporte_md(resumen), encoding="utf-8")
     return resumen

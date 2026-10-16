@@ -84,7 +84,7 @@ main { max-width: var(--ancho); margin: 0 auto; padding: 0 24px; }
 .apoyo { margin: 20px 0 0; max-width: var(--ancho-texto); color: var(--tinta-2); font-size: 1.1rem; }
 
 /* Segmentos (radiogroup) */
-.segmentos { display: inline-flex; flex-wrap: wrap; gap: 4px; padding: 3px; background: var(--papel-2); border-radius: 999px; }
+.segmentos { display: inline-flex; flex-wrap: wrap; gap: 4px; padding: 3px; background: var(--papel-2); border-radius: 20px; }
 .segmentos.envolver { border-radius: 14px; }
 .segmentos button {
   font: inherit; font-variation-settings: "wdth" 92; font-size: 0.92rem; letter-spacing: 0; line-height: 1.2;

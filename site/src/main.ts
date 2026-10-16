@@ -1,5 +1,5 @@
 import "./estilos.css";
-import type { EntidadTasa, Punto, Resumen, SeriesCDT } from "./tipos";
+import type { EntidadTasa, HistoricoUsura, Punto, Resumen, SeriesCDT, Usura } from "./tipos";
 import { esc, fecha, pct, pesos, pp } from "./formato";
 import { graficaLineas, recortar, type Serie } from "./grafica";
 
@@ -185,10 +185,14 @@ function renderCDT(r: Resumen, series: SeriesCDT) {
 
 // --------------------------------------------------------------------------------------------------- Crédito
 
-function renderCredito(r: Resumen, series: Record<string, Punto[]>, usura: Punto[]): HTMLElement | null {
+function renderCredito(r: Resumen, series: Record<string, Punto[]>, hu: HistoricoUsura): HTMLElement | null {
   const prods = r.credito.productos.filter((p) => p.entidades.length);
   if (!prods.length) return null;
-  const tope = r.usura.vigente?.usura_ea;
+  // Cada producto se compara con su propia usura: el consumo de bajo monto tiene un tope distinto
+  const esBajoMonto = (prod: string) => prod.toLowerCase().includes("bajo monto");
+  const usuraDe = (prod: string): { vig: Usura | null; hist: Punto[] } => esBajoMonto(prod)
+    ? { vig: r.usura.vigente_bajo_monto, hist: hu.consumo_bajo_monto }
+    : { vig: r.usura.vigente, hist: hu.consumo_y_ordinario };
   const sec = seccion("credito", "¿Cuánto cuesta endeudarse?");
   let actual = leer("producto") || prods[0].producto;
   if (!prods.some((p) => p.producto === actual)) actual = prods[0].producto;
@@ -202,7 +206,10 @@ function renderCredito(r: Resumen, series: Record<string, Punto[]>, usura: Punto
   controles.className = "controles";
   let rango = leer("rango-credito") || "1095";
   const redibujar = graficaLineas(graficaCaja, [], { titulo: "Tasa promedio de crédito y tasa de usura", formatoY: (v) => pct(v) });
+  const nota = document.createElement("p");
+  nota.className = "nota";
   const actualizarGrafica = () => {
+    const usura = usuraDe(actual).hist;
     const s: Serie[] = [{ nombre: actual, puntos: recortar(series[actual] ?? [], diasRango(rango)), clase: "s1" }];
     const desde = s[0].puntos[0]?.[0];
     if (usura.length && desde) {
@@ -215,26 +222,23 @@ function renderCredito(r: Resumen, series: Record<string, Punto[]>, usura: Punto
   const pintar = () => {
     const p = prods.find((x) => x.producto === actual)!;
     const barato = p.entidades[0];
+    const u = usuraDe(actual).vig;
+    const tope = u?.usura_ea;
     frase.innerHTML = `En <b>${esc(p.producto)}</b>, la tasa más baja de la semana al ${esc(fecha(r.credito.fecha))}
       la cobró <b>${esc(barato.entidad)}</b>: ${pct(barato.tasa_ea)} E.A. El promedio del sistema fue ${pct(p.promedio_sistema)}
       ${p.cambio_pp != null ? `(${pp(p.cambio_pp)} en cuatro semanas)` : ""}${tope ? ` y el tope legal es ${pct(tope)}` : ""}.`;
     tablaCaja.replaceChildren(tablaRanking(p.entidades, { maxFilas: 12, tope, promedio: p.promedio_sistema, descripcion: `${p.producto}, de menor a mayor tasa`,
       ordenTexto: "Ordenado de menor a mayor tasa: la primera es la más barata. Es la tasa promedio que la entidad cobró en los créditos que desembolsó esa semana, no la que te ofrecerá a ti." }));
+    nota.innerHTML = u ? `La tasa de usura para ${esBajoMonto(actual) ? "consumo de bajo monto" : "consumo y ordinario"} vigente desde el
+      ${esc(fecha(u.desde))} es <b>${pct(u.usura_ea)}</b> efectivo anual: 1,5 veces el interés bancario corriente (${pct(u.ibc_ea)})
+      que certifica la Superfinanciera. Cobrar por encima es delito.` : "";
     actualizarGrafica();
   };
   const selProd = selector("Producto de crédito", prods.map((p) => ({ valor: p.producto, texto: p.producto })), actual,
     (v) => { actual = v; guardar("producto", v); pintar(); });
   selProd.classList.add("envolver");
   controles.append(selector("Rango de tiempo", RANGOS, rango, (v) => { rango = v; guardar("rango-credito", v); actualizarGrafica(); }));
-  sec.append(selProd, frase, tablaCaja, sub, controles, graficaCaja);
-  if (r.usura.vigente) {
-    const u = r.usura.vigente;
-    const nota = document.createElement("p");
-    nota.className = "nota";
-    nota.innerHTML = `La tasa de usura para consumo y ordinario vigente desde el ${esc(fecha(u.desde))} es <b>${pct(u.usura_ea)}</b>
-      efectivo anual: 1,5 veces el interés bancario corriente (${pct(u.ibc_ea)}) que certifica la Superfinanciera. Cobrar por encima es delito.`;
-    sec.append(nota);
-  }
+  sec.append(selProd, frase, tablaCaja, sub, controles, graficaCaja, nota);
   pintar();
   return sec;
 }
@@ -303,7 +307,7 @@ function renderDatos(r: Resumen): HTMLElement {
       <dt><a href="${base}cdt_series.json">cdt_series.json</a></dt><dd>Promedio semanal del sistema por plazo y de las 12 entidades más grandes.</dd>
       <dt><a href="${base}credito_series.json">credito_series.json</a></dt><dd>Promedio semanal del sistema por producto de crédito.</dd>
       <dt><a href="${base}trm.json">trm.json</a></dt><dd>TRM diaria desde 2015.</dd>
-      <dt><a href="${base}usura.json">usura.json</a></dt><dd>Histórico de la tasa de usura de consumo.</dd>
+      <dt><a href="${base}usura.json">usura.json</a></dt><dd>Histórico de la tasa de usura: consumo y ordinario, y consumo de bajo monto.</dd>
       <dt><a href="${REPO}/tree/main/data">data/ en GitHub</a></dt><dd>Datos crudos en CSV: CDT diario por entidad y plazo desde 2022, crédito semanal por entidad y producto desde julio de 2022, TRM desde 1991.</dd>
     </dl>
     <h3>Cómo se calcula</h3>
@@ -316,7 +320,7 @@ function renderDatos(r: Resumen): HTMLElement {
         <a href="https://www.datos.gov.co/d/pare-7x5i">interés bancario corriente</a> y
         <a href="https://www.datos.gov.co/d/32sa-8pi3">TRM</a>.</li>
     </ul>
-    <p class="tenue">Última actualización: ${esc(new Date(r.generado).toLocaleString("es-CO", { timeZone: "America/Bogota", dateStyle: "long", timeStyle: "short" }))}.</p>`);
+    <p class="tenue">Última actualización: ${esc(new Date(r.generado).toLocaleString("es-CO", { timeZone: "America/Bogota", dateStyle: "long", timeStyle: "short" })).replace(/\.$/, "")}.</p>`);
   return sec;
 }
 
@@ -326,7 +330,7 @@ async function iniciar() {
   try {
     const [r, cdtS, credS, trm, usura] = await Promise.all([
       json<Resumen>("resumen.json"), json<SeriesCDT>("cdt_series.json"), json<Record<string, Punto[]>>("credito_series.json"),
-      json<Punto[]>("trm.json"), json<Punto[]>("usura.json"),
+      json<Punto[]>("trm.json"), json<HistoricoUsura>("usura.json"),
     ]);
     const { hero, seccion: secCDT } = renderCDT(r, cdtS);
     app.replaceChildren(...[hero, secCDT, renderCredito(r, credS, usura), renderTRM(r, trm), renderMovimientos(r), renderDatos(r)]

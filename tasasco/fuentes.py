@@ -160,18 +160,26 @@ def descargar_tibc(soda: Soda) -> list[dict[str, Any]]:
 # --------------------------------------------------------------------------- utilidades
 
 _SUFIJOS = (" S.A.S.", " S.A.S", " S.A.", " S.A", " S. A.", " SA")
-_SIGLAS = {"BBVA", "GNB", "AV", "CF", "BCSC", "ITAU", "IRIS", "JP", "MIBANCO", "LULO", "NU", "RCI", "GM", "CFA"}
+_SIGLAS = {"BBVA", "GNB", "AV", "CF", "BCSC", "ITAU", "IRIS", "JP", "MIBANCO", "LULO", "NU", "RCI", "GM", "CFA", "BIC"}
 _MENORES = {"DE", "LA", "LAS", "EL", "DEL", "LOS", "Y", "E"}
 
 
 def limpiar_entidad(nombre: Any) -> str:
     """'Banco de Bogotá S.A.' -> 'Banco de Bogotá'; 'BANCO CONTACTAR S.A.' -> 'Banco Contactar'."""
-    n = " ".join(str(nombre or "").split()).strip(" ,")
+    import re
+    n = " ".join(str(nombre or "").replace('"', " ").split())
+    n = re.sub(r"\s*\(.*$", "", n)            # "(en adelante el Banco o la Sociedad)"
+    n = re.split(r"\s+o\s+", n)[0]             # "Finandina Bic o Banco Finandina Bic o Finandina"
+    n = n.strip(" ,")
     for suf in _SUFIJOS:
         if n.upper().endswith(suf):
             n = n[: -len(suf)]
             break
     n = n.strip(" .,")
+    n = re.sub(r"\bBic\b", "BIC", n)
+    for suf in (" C.F", " C. F", " Cf"):  # "Nequi C.F." y "IRIS CF." quedan igual: "... CF"
+        if n.endswith(suf):
+            n = n[: -len(suf)] + " CF"
     if n.isupper():
         palabras = []
         for i, p in enumerate(n.split()):
