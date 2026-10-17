@@ -1,10 +1,10 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-16 11:50 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-10-16 20:21 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
-**$3.170,46** el 2026-10-16. Variación en 30 días: 2,26%; en un año: -18,75%. Rango de 52 semanas: $3.048 a $3.901.
+**$3.174,67** el 2026-10-17. Variación en 30 días: 1,48%; en un año: -18,12%. Rango de 52 semanas: $3.048 a $3.901.
 
 ## Tasa de usura (consumo y ordinario)
 
@@ -21,33 +21,33 @@ _Actualizado: 2026-10-16 11:50 (hora Colombia). Fuente: Superintendencia Financi
 | 360 días | 12,41% | +0,11 p.p. | 13,36% | Banco Pichincha |
 | Más de 360 días | 12,63% | −0,08 p.p. | 13,59% | Coltefinanciera |
 
-## Crédito de consumo (semana al 2026-10-02)
+## Crédito de consumo (semana al 2026-10-09)
 
 | Producto | Promedio | Cambio 4 sem. | Más barato | Entidad |
 |---|---|---|---|---|
-| Tarjeta de crédito \(ingresos \> 2 SMMLV\) | 18,23% | −0,08 p.p. | 13,61% | Bancolombia |
-| Tarjeta de crédito \(ingresos ≤ 2 SMMLV\) | 21,95% | −0,13 p.p. | 13,59% | Banco Davivienda |
-| Libre inversión | 22,02% | −0,14 p.p. | 18,90% | Confiar |
-| Libranza | 18,27% | −0,03 p.p. | 15,58% | Banco Pichincha |
-| Vehículo | 20,83% | −0,14 p.p. | 17,68% | Bancolombia |
-| Crédito rotativo | 26,92% | −0,64 p.p. | 22,55% | Banco de Occidente |
-| Consumo de bajo monto | 45,62% | +1,61 p.p. | 41,55% | Nequi CF |
+| Tarjeta de crédito \(ingresos \> 2 SMMLV\) | 18,21% | −0,23 p.p. | 14,03% | Bancolombia |
+| Tarjeta de crédito \(ingresos ≤ 2 SMMLV\) | 21,76% | −0,29 p.p. | 13,30% | Banco Davivienda |
+| Libre inversión | 22,53% | +0,59 p.p. | 19,12% | Confiar |
+| Libranza | 18,21% | −0,08 p.p. | 15,27% | Banco Pichincha |
+| Vehículo | 20,43% | +0,02 p.p. | 17,04% | Bancolombia |
+| Crédito rotativo | 26,64% | −0,97 p.p. | 21,34% | Bancoomeva |
+| Consumo de bajo monto | 46,72% | +2,45 p.p. | 41,33% | Nequi CF |
 
 ## Mayores subidas (4 semanas)
 
-- **Bancolombia**, Consumo de bajo monto: 59,52% (+15,81 p.p.)
-- **Nu Colombia CF**, Consumo de bajo monto: 48,60% (+6,46 p.p.)
-- **Banco Serfinanza**, Libranza: 26,15% (+5,96 p.p.)
-- **Bancoomeva**, Crédito rotativo: 25,93% (+3,59 p.p.)
+- **Bancolombia**, Consumo de bajo monto: 59,80% (+4,16 p.p.)
 - **Banco Caja Social**, CDT 360 días: 12,33% (+3,06 p.p.)
+- **Nu Colombia CF**, Consumo de bajo monto: 48,27% (+2,80 p.p.)
+- **Banco de Occidente**, Libre inversión: 20,47% (+2,78 p.p.)
+- **Banco de Bogotá**, Consumo de bajo monto: 59,04% (+2,49 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
-- **Bancoomeva**, Libre inversión: 22,46% (−1,81 p.p.)
-- **Banco de Bogotá**, Libre inversión: 22,16% (−1,59 p.p.)
-- **Bancolombia**, Crédito rotativo: 25,51% (−1,21 p.p.)
-- **Banco Davivienda**, Crédito rotativo: 28,08% (−0,94 p.p.)
-- **Banco Pichincha**, Libranza: 15,58% (−0,91 p.p.)
+- **Bancoomeva**, Crédito rotativo: 21,34% (−5,06 p.p.)
+- **Bancolombia**, Crédito rotativo: 25,39% (−1,36 p.p.)
+- **Banco Pichincha**, Libranza: 15,27% (−1,24 p.p.)
+- **Bancolombia**, Vehículo: 17,04% (−0,89 p.p.)
+- **AV Villas**, Tarjeta de crédito \(ingresos ≤ 2 SMMLV\): 19,23% (−0,84 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
