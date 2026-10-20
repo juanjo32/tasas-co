@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-19 20:51 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-10-20 12:13 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -14,12 +14,12 @@ _Actualizado: 2026-10-19 20:51 (hora Colombia). Fuente: Superintendencia Financi
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,54% | +0,10 p.p. | 9,74% | Bancolombia |
-| 60 días | 9,35% | −0,08 p.p. | 9,83% | Bancolombia |
-| 90 días | 10,46% | +0,09 p.p. | 11,77% | Mibanco |
-| 180 días | 10,90% | −0,37 p.p. | 12,75% | La Hipotecaria |
-| 360 días | 12,43% | +0,11 p.p. | 13,42% | Banco Pichincha |
-| Más de 360 días | 12,68% | −0,09 p.p. | 13,62% | Coltefinanciera |
+| 30 días | 9,57% | +0,13 p.p. | 9,74% | Bancolombia |
+| 60 días | 9,33% | −0,11 p.p. | 9,83% | Bancolombia |
+| 90 días | 10,47% | +0,10 p.p. | 11,77% | Mibanco |
+| 180 días | 11,08% | −0,19 p.p. | 12,62% | Itaú |
+| 360 días | 12,41% | +0,09 p.p. | 13,40% | Banco Pichincha |
+| Más de 360 días | 12,72% | −0,06 p.p. | 13,56% | Coltefinanciera |
 
 ## Crédito de consumo (semana al 2026-10-09)
 
@@ -36,7 +36,7 @@ _Actualizado: 2026-10-19 20:51 (hora Colombia). Fuente: Superintendencia Financi
 ## Mayores subidas (4 semanas)
 
 - **Bancolombia**, Consumo de bajo monto: 59,80% (+4,16 p.p.)
-- **Banco Caja Social**, CDT 360 días: 12,39% (+3,11 p.p.)
+- **Banco Caja Social**, CDT 360 días: 12,31% (+3,03 p.p.)
 - **Nu Colombia CF**, Consumo de bajo monto: 48,27% (+2,80 p.p.)
 - **Banco de Occidente**, Libre inversión: 20,47% (+2,78 p.p.)
 - **Banco de Bogotá**, Consumo de bajo monto: 59,04% (+2,49 p.p.)
