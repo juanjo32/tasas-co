@@ -1,25 +1,25 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-26 13:42 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-10-26 21:05 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
-**$3.158,43** el 2026-10-24. Variación en 30 días: -3,25%; en un año: -18,78%. Rango de 52 semanas: $3.048 a $3.885.
+**$3.157,94** el 2026-10-27. Variación en 30 días: -4,50%; en un año: -18,16%. Rango de 52 semanas: $3.048 a $3.885.
 
 ## Tasa de usura (consumo y ordinario)
 
 **28,59% E.A.** vigente desde 2026-10-01 (interés bancario corriente 19,06%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-10-21)
+## CDT: mejores tasas (últimos 7 días al 2026-10-23)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,60% | +0,12 p.p. | 11,12% | Itaú |
-| 60 días | 9,51% | +0,07 p.p. | 9,93% | Banco de Bogotá |
-| 90 días | 10,46% | +0,07 p.p. | 11,95% | Tuya |
-| 180 días | 11,30% | +0,17 p.p. | 12,59% | Itaú |
-| 360 días | 12,49% | +0,43 p.p. | 13,36% | Banco Pichincha |
-| Más de 360 días | 12,91% | +0,36 p.p. | 13,46% | Coltefinanciera |
+| 30 días | 9,58% | +0,12 p.p. | 11,12% | Itaú |
+| 60 días | 9,65% | −0,12 p.p. | 11,66% | Itaú |
+| 90 días | 10,53% | +0,30 p.p. | 12,00% | Finandina BIC |
+| 180 días | 11,46% | +0,51 p.p. | 12,61% | Mibanco |
+| 360 días | 12,59% | +0,56 p.p. | 13,35% | Banco Pichincha |
+| Más de 360 días | 12,95% | +0,33 p.p. | 13,47% | Coltefinanciera |
 
 ## Crédito de consumo (semana al 2026-10-16)
 
@@ -37,7 +37,7 @@ _Actualizado: 2026-10-26 13:42 (hora Colombia). Fuente: Superintendencia Financi
 
 - **Banco de Bogotá**, Consumo de bajo monto: 60,84% (+4,34 p.p.)
 - **Bancolombia**, Consumo de bajo monto: 59,52% (+3,87 p.p.)
-- **Banco Caja Social**, CDT 360 días: 12,32% (+3,28 p.p.)
+- **Banco Caja Social**, CDT 360 días: 12,39% (+3,51 p.p.)
 - **Nequi CF**, Consumo de bajo monto: 44,39% (+2,68 p.p.)
 - **Bancolombia**, Crédito rotativo: 26,95% (+1,60 p.p.)
 
