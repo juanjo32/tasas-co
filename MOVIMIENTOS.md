@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-26 21:05 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-10-27 13:04 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -14,12 +14,12 @@ _Actualizado: 2026-10-26 21:05 (hora Colombia). Fuente: Superintendencia Financi
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,58% | +0,12 p.p. | 11,12% | Itaú |
-| 60 días | 9,65% | −0,12 p.p. | 11,66% | Itaú |
-| 90 días | 10,53% | +0,30 p.p. | 12,00% | Finandina BIC |
-| 180 días | 11,46% | +0,51 p.p. | 12,61% | Mibanco |
-| 360 días | 12,59% | +0,56 p.p. | 13,35% | Banco Pichincha |
-| Más de 360 días | 12,95% | +0,33 p.p. | 13,47% | Coltefinanciera |
+| 30 días | 9,59% | +0,12 p.p. | 11,12% | Itaú |
+| 60 días | 9,66% | −0,11 p.p. | 11,66% | Itaú |
+| 90 días | 10,55% | +0,32 p.p. | 12,00% | Finandina BIC |
+| 180 días | 11,42% | +0,47 p.p. | 12,59% | Mibanco |
+| 360 días | 12,61% | +0,58 p.p. | 13,34% | Banco Pichincha |
+| Más de 360 días | 12,94% | +0,32 p.p. | 13,90% | RCI Colombia |
 
 ## Crédito de consumo (semana al 2026-10-16)
 
@@ -37,7 +37,7 @@ _Actualizado: 2026-10-26 21:05 (hora Colombia). Fuente: Superintendencia Financi
 
 - **Banco de Bogotá**, Consumo de bajo monto: 60,84% (+4,34 p.p.)
 - **Bancolombia**, Consumo de bajo monto: 59,52% (+3,87 p.p.)
-- **Banco Caja Social**, CDT 360 días: 12,39% (+3,51 p.p.)
+- **Banco Caja Social**, CDT 360 días: 12,30% (+3,42 p.p.)
 - **Nequi CF**, Consumo de bajo monto: 44,39% (+2,68 p.p.)
 - **Bancolombia**, Crédito rotativo: 26,95% (+1,60 p.p.)
 
