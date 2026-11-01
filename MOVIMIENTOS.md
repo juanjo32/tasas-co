@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-10-31 21:15 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-01 12:56 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -8,7 +8,7 @@ _Actualizado: 2026-10-31 21:15 (hora Colombia). Fuente: Superintendencia Financi
 
 ## Tasa de usura (consumo y ordinario)
 
-**28,59% E.A.** vigente desde 2026-10-01 (interés bancario corriente 19,06%).
+**28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
 ## CDT: mejores tasas (últimos 7 días al 2026-10-28)
 
