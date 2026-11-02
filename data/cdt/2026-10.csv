@@ -4254,3 +4254,230 @@ fecha,tipo_entidad,codigo_entidad,entidad,plazo_dias,tasa_ea,monto
 2026-10-28,Compañía de financiamiento,4-46,Coltefinanciera,360,11.87,781886.0
 2026-10-28,Compañía de financiamiento,4-46,Coltefinanciera,361,13.47,13049799.0
 2026-10-28,Compañía de financiamiento,4-46,Coltefinanciera,90,11.19,2322669.0
+2026-10-29,Banco,1-1,Banco de Bogotá,120,10.84,1913860.0
+2026-10-29,Banco,1-1,Banco de Bogotá,180,10.78,11175560.0
+2026-10-29,Banco,1-1,Banco de Bogotá,30,11.43,45666209.0
+2026-10-29,Banco,1-1,Banco de Bogotá,360,12.91,52864979.0
+2026-10-29,Banco,1-1,Banco de Bogotá,361,11.96,4552785.0
+2026-10-29,Banco,1-1,Banco de Bogotá,60,10.34,2366506.0
+2026-10-29,Banco,1-1,Banco de Bogotá,90,10.79,21084459.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,180,11.56,4062065.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,30,8.5,1878091.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,360,12.83,22927306.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,361,12.55,100000.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,60,8.7,140000.0
+2026-10-29,Banco,1-12,Banco GNB Sudameris,90,11.63,14117858.0
+2026-10-29,Banco,1-13,BBVA Colombia,120,10.47,3068545.0
+2026-10-29,Banco,1-13,BBVA Colombia,180,11.55,32768868.0
+2026-10-29,Banco,1-13,BBVA Colombia,30,4.24,3466.0
+2026-10-29,Banco,1-13,BBVA Colombia,360,11.78,14392673.0
+2026-10-29,Banco,1-13,BBVA Colombia,361,13.2,126789000.0
+2026-10-29,Banco,1-13,BBVA Colombia,60,8.67,561377.0
+2026-10-29,Banco,1-13,BBVA Colombia,90,11.28,49712962.0
+2026-10-29,Banco,1-2,Banco Popular,120,10.27,1386782.68
+2026-10-29,Banco,1-2,Banco Popular,180,10.87,8628438.52
+2026-10-29,Banco,1-2,Banco Popular,30,7.73,556219.0
+2026-10-29,Banco,1-2,Banco Popular,360,11.16,1877766.32
+2026-10-29,Banco,1-2,Banco Popular,361,11.95,2766812.45
+2026-10-29,Banco,1-2,Banco Popular,60,10.22,2823451.16
+2026-10-29,Banco,1-2,Banco Popular,90,12.03,44193812.04
+2026-10-29,Banco,1-23,Banco de Occidente,120,11.17,288454.6
+2026-10-29,Banco,1-23,Banco de Occidente,180,12.0,17495057.09
+2026-10-29,Banco,1-23,Banco de Occidente,30,4.05,96634.44
+2026-10-29,Banco,1-23,Banco de Occidente,360,12.84,97654825.72
+2026-10-29,Banco,1-23,Banco de Occidente,361,13.0,52424845.53
+2026-10-29,Banco,1-23,Banco de Occidente,90,11.51,34075419.91
+2026-10-29,Banco,1-30,Banco Caja Social,120,8.31,743396.49
+2026-10-29,Banco,1-30,Banco Caja Social,180,8.41,15342302.08
+2026-10-29,Banco,1-30,Banco Caja Social,360,10.25,5951408.18
+2026-10-29,Banco,1-30,Banco Caja Social,361,11.06,2388582.08
+2026-10-29,Banco,1-30,Banco Caja Social,60,0.7,528591.19
+2026-10-29,Banco,1-30,Banco Caja Social,90,7.8,23219125.36
+2026-10-29,Banco,1-39,Banco Davivienda,120,10.39,4680707.0
+2026-10-29,Banco,1-39,Banco Davivienda,180,10.71,11067445.0
+2026-10-29,Banco,1-39,Banco Davivienda,30,8.81,11207885.0
+2026-10-29,Banco,1-39,Banco Davivienda,360,12.09,26632841.0
+2026-10-29,Banco,1-39,Banco Davivienda,361,12.02,9234725.0
+2026-10-29,Banco,1-39,Banco Davivienda,60,8.83,3448497.0
+2026-10-29,Banco,1-39,Banco Davivienda,90,10.26,40866088.0
+2026-10-29,Banco,1-42,Banco Colpatria,120,11.39,2119701.39
+2026-10-29,Banco,1-42,Banco Colpatria,180,12.0,5056309.43
+2026-10-29,Banco,1-42,Banco Colpatria,361,11.93,3156629.01
+2026-10-29,Banco,1-42,Banco Colpatria,90,11.39,14885489.6
+2026-10-29,Banco,1-43,Banco Agrario de Colombia,180,9.43,4636471.0
+2026-10-29,Banco,1-43,Banco Agrario de Colombia,360,9.73,328748.0
+2026-10-29,Banco,1-43,Banco Agrario de Colombia,361,9.76,254324.0
+2026-10-29,Banco,1-43,Banco Agrario de Colombia,60,1.5,127062.0
+2026-10-29,Banco,1-43,Banco Agrario de Colombia,90,9.17,8331629.0
+2026-10-29,Banco,1-49,AV Villas,120,10.58,111108.0
+2026-10-29,Banco,1-49,AV Villas,180,11.16,9104218.0
+2026-10-29,Banco,1-49,AV Villas,360,11.9,5943328.0
+2026-10-29,Banco,1-49,AV Villas,361,10.75,911079.0
+2026-10-29,Banco,1-49,AV Villas,90,11.18,41619028.0
+2026-10-29,Banco,1-51,Banco Credifinanciera,180,11.94,2377518.47
+2026-10-29,Banco,1-51,Banco Credifinanciera,30,2.2,12662.53
+2026-10-29,Banco,1-51,Banco Credifinanciera,360,12.96,5840185.98
+2026-10-29,Banco,1-51,Banco Credifinanciera,361,12.94,1467703.59
+2026-10-29,Banco,1-51,Banco Credifinanciera,90,11.49,1996919.01
+2026-10-29,Banco,1-52,Bancamía,180,11.73,932716.64
+2026-10-29,Banco,1-52,Bancamía,360,12.63,524923.81
+2026-10-29,Banco,1-52,Bancamía,361,12.63,891131.5
+2026-10-29,Banco,1-52,Bancamía,90,10.2,340585.61
+2026-10-29,Banco,1-53,Banco W,180,12.28,982044.86
+2026-10-29,Banco,1-53,Banco W,360,13.13,1787939.11
+2026-10-29,Banco,1-53,Banco W,361,13.19,42000.0
+2026-10-29,Banco,1-53,Banco W,60,9.74,3300.0
+2026-10-29,Banco,1-53,Banco W,90,11.7,1300694.74
+2026-10-29,Banco,1-54,Bancoomeva,180,10.69,5589167.38
+2026-10-29,Banco,1-54,Bancoomeva,360,11.54,604542.27
+2026-10-29,Banco,1-54,Bancoomeva,90,10.96,3897574.55
+2026-10-29,Banco,1-55,Finandina BIC,180,11.69,3974218.52
+2026-10-29,Banco,1-55,Finandina BIC,360,10.22,152838.35
+2026-10-29,Banco,1-55,Finandina BIC,361,11.72,300.0
+2026-10-29,Banco,1-55,Finandina BIC,90,11.87,4962303.39
+2026-10-29,Banco,1-56,Banco Falabella,180,10.89,2991418.47
+2026-10-29,Banco,1-56,Banco Falabella,360,12.24,3662702.9
+2026-10-29,Banco,1-56,Banco Falabella,361,11.48,362618.91
+2026-10-29,Banco,1-56,Banco Falabella,90,10.1,2679616.87
+2026-10-29,Banco,1-57,Banco Pichincha,180,11.95,3854626.37
+2026-10-29,Banco,1-57,Banco Pichincha,360,13.31,4822714.14
+2026-10-29,Banco,1-57,Banco Pichincha,361,12.95,589592.91
+2026-10-29,Banco,1-57,Banco Pichincha,60,1.45,90000.0
+2026-10-29,Banco,1-57,Banco Pichincha,90,10.7,1168675.65
+2026-10-29,Banco,1-58,Coopcentral,180,7.35,27266.0
+2026-10-29,Banco,1-58,Coopcentral,90,10.98,5586672.0
+2026-10-29,Banco,1-59,Banco Santander,180,11.0,164047.15
+2026-10-29,Banco,1-59,Banco Santander,360,11.8,72790.0
+2026-10-29,Banco,1-59,Banco Santander,361,11.9,17167.92
+2026-10-29,Banco,1-59,Banco Santander,90,10.5,700852.64
+2026-10-29,Banco,1-6,Itaú,180,12.47,22335289.79
+2026-10-29,Banco,1-6,Itaú,360,13.06,4200000.0
+2026-10-29,Banco,1-6,Itaú,90,11.41,6098176.05
+2026-10-29,Banco,1-60,Banco Mundo Mujer,180,10.7,1284250.1
+2026-10-29,Banco,1-60,Banco Mundo Mujer,360,11.79,1033157.43
+2026-10-29,Banco,1-60,Banco Mundo Mujer,361,11.76,1474064.19
+2026-10-29,Banco,1-60,Banco Mundo Mujer,60,6.14,44190.8
+2026-10-29,Banco,1-60,Banco Mundo Mujer,90,10.16,2400495.08
+2026-10-29,Banco,1-62,Mibanco,180,12.74,9833679.41
+2026-10-29,Banco,1-62,Mibanco,360,12.63,1053893.61
+2026-10-29,Banco,1-62,Mibanco,361,12.92,455761.24
+2026-10-29,Banco,1-62,Mibanco,90,12.14,3522023.6
+2026-10-29,Banco,1-63,Banco Serfinanza,180,11.8,2941645.48
+2026-10-29,Banco,1-63,Banco Serfinanza,360,12.22,600224.46
+2026-10-29,Banco,1-63,Banco Serfinanza,361,12.75,200000.0
+2026-10-29,Banco,1-63,Banco Serfinanza,90,11.1,1118513.15
+2026-10-29,Banco,1-65,Lulo Bank,120,10.47,117533.56
+2026-10-29,Banco,1-65,Lulo Bank,180,11.21,204045.11
+2026-10-29,Banco,1-65,Lulo Bank,360,11.58,210385.42
+2026-10-29,Banco,1-65,Lulo Bank,361,12.65,42232.04
+2026-10-29,Banco,1-65,Lulo Bank,90,10.18,503901.83
+2026-10-29,Banco,1-67,Banco Unión,180,11.23,666180.62
+2026-10-29,Banco,1-67,Banco Unión,360,12.48,830258.5
+2026-10-29,Banco,1-67,Banco Unión,361,12.52,332972.98
+2026-10-29,Banco,1-67,Banco Unión,90,11.04,888560.24
+2026-10-29,Banco,1-68,Banco Contactar,180,12.78,2690705.61
+2026-10-29,Banco,1-68,Banco Contactar,360,13.06,1004793.87
+2026-10-29,Banco,1-68,Banco Contactar,361,13.25,523400.0
+2026-10-29,Banco,1-68,Banco Contactar,90,11.24,1317322.62
+2026-10-29,Banco,1-7,Bancolombia,120,10.91,41442862.34
+2026-10-29,Banco,1-7,Bancolombia,180,11.04,89684203.36
+2026-10-29,Banco,1-7,Bancolombia,30,9.74,135834171.37
+2026-10-29,Banco,1-7,Bancolombia,360,12.01,29660034.92
+2026-10-29,Banco,1-7,Bancolombia,361,11.55,11814471.98
+2026-10-29,Banco,1-7,Bancolombia,60,9.84,24751977.82
+2026-10-29,Banco,1-7,Bancolombia,90,10.48,94787045.25
+2026-10-29,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,180,9.6,558206.0
+2026-10-29,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,30,0.5,14000.0
+2026-10-29,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,360,11.17,572433.0
+2026-10-29,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,90,9.3,1309486.0
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,120,8.89,2000.0
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,180,9.82,1118776.58
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,30,4.28,77772.22
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,360,10.62,1613430.05
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,361,9.54,155052.58
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,60,6.56,56387.94
+2026-10-29,Cooperativa financiera,32-2,Cooperativa Financiera JFK,90,11.66,4300201.05
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,120,7.66,125734.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,180,8.0,940557.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,30,0.5,49855.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,360,9.39,332377.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,361,10.07,93000.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,60,0.5,20000.0
+2026-10-29,Cooperativa financiera,32-4,Cotrafa,90,8.01,976343.0
+2026-10-29,Cooperativa financiera,32-5,Confiar,120,8.36,186076.24
+2026-10-29,Cooperativa financiera,32-5,Confiar,180,8.6,1109684.78
+2026-10-29,Cooperativa financiera,32-5,Confiar,30,5.26,510539.29
+2026-10-29,Cooperativa financiera,32-5,Confiar,360,8.52,223448.56
+2026-10-29,Cooperativa financiera,32-5,Confiar,60,6.38,37280.46
+2026-10-29,Cooperativa financiera,32-5,Confiar,90,9.37,1287358.99
+2026-10-29,Compañía de financiamiento,4-108,Iris CF,180,11.65,90966.46
+2026-10-29,Compañía de financiamiento,4-108,Iris CF,360,12.87,1047261.97
+2026-10-29,Compañía de financiamiento,4-108,Iris CF,361,12.79,174260.37
+2026-10-29,Compañía de financiamiento,4-108,Iris CF,90,10.47,135269.67
+2026-10-29,Compañía de financiamiento,4-117,Credifamilia,180,12.1,222504.71
+2026-10-29,Compañía de financiamiento,4-117,Credifamilia,360,13.09,240506.28
+2026-10-29,Compañía de financiamiento,4-117,Credifamilia,361,13.15,283619.0
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,120,10.11,10300.0
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,180,11.63,434815.05
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,30,0.64,44227.1
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,360,12.24,92832.8
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,361,11.91,5100.0
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,60,1.77,2950.0
+2026-10-29,Compañía de financiamiento,4-118,Crezcamos,90,9.92,60240.56
+2026-10-29,Compañía de financiamiento,4-120,La Hipotecaria,180,12.5,40160.0
+2026-10-29,Compañía de financiamiento,4-120,La Hipotecaria,360,13.15,1000000.0
+2026-10-29,Compañía de financiamiento,4-120,La Hipotecaria,90,10.5,53123.33
+2026-10-29,Compañía de financiamiento,4-121,Financiera Juriscoop CF,120,10.97,87466.67
+2026-10-29,Compañía de financiamiento,4-121,Financiera Juriscoop CF,180,11.84,2159734.02
+2026-10-29,Compañía de financiamiento,4-121,Financiera Juriscoop CF,360,11.35,1077892.48
+2026-10-29,Compañía de financiamiento,4-121,Financiera Juriscoop CF,361,12.07,25926.14
+2026-10-29,Compañía de financiamiento,4-121,Financiera Juriscoop CF,90,12.22,10675054.94
+2026-10-29,Compañía de financiamiento,4-122,RCI Colombia,361,13.5,1600000.0
+2026-10-29,Compañía de financiamiento,4-127,"Bold C.F. , Bold CF",180,11.25,52464.78
+2026-10-29,Compañía de financiamiento,4-127,"Bold C.F. , Bold CF",30,10.0,52219.17
+2026-10-29,Compañía de financiamiento,4-127,"Bold C.F. , Bold CF",361,12.5,327046.51
+2026-10-29,Compañía de financiamiento,4-127,"Bold C.F. , Bold CF",90,10.75,107636.65
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,120,9.8,1216833.46
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,180,10.55,2210025.61
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,360,11.05,912235.29
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,361,11.95,2651839.43
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,60,9.45,1978315.06
+2026-10-29,Compañía de financiamiento,4-128,Nu COLOMBIA CF,90,9.7,2289027.77
+2026-10-29,Compañía de financiamiento,4-129,Koa CF,120,11.5,1025.81
+2026-10-29,Compañía de financiamiento,4-129,Koa CF,180,12.24,538114.4
+2026-10-29,Compañía de financiamiento,4-129,Koa CF,360,13.27,626508.1
+2026-10-29,Compañía de financiamiento,4-129,Koa CF,361,13.07,256603.68
+2026-10-29,Compañía de financiamiento,4-129,Koa CF,90,11.0,35662.76
+2026-10-29,Compañía de financiamiento,4-132,Plata S.a CF,180,13.0,4505.0
+2026-10-29,Compañía de financiamiento,4-132,Plata S.a CF,361,11.5,400.0
+2026-10-29,Compañía de financiamiento,4-132,Plata S.a CF,90,12.5,9200.0
+2026-10-29,Compañía de financiamiento,4-26,Tuya,180,12.42,625979.0
+2026-10-29,Compañía de financiamiento,4-26,Tuya,360,13.21,8112450.0
+2026-10-29,Compañía de financiamiento,4-26,Tuya,90,11.97,6927936.65
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,120,10.8,337640.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,180,11.79,2476490.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,30,5.07,195376.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,360,11.68,684027.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,361,13.46,10510706.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,60,5.37,12512.0
+2026-10-29,Compañía de financiamiento,4-46,Coltefinanciera,90,11.75,6834365.0
+2026-10-30,Banco,1-13,BBVA Colombia,120,12.33,14255994.0
+2026-10-30,Banco,1-13,BBVA Colombia,180,11.29,39253051.0
+2026-10-30,Banco,1-13,BBVA Colombia,30,9.16,522333.0
+2026-10-30,Banco,1-13,BBVA Colombia,360,12.64,29718499.0
+2026-10-30,Banco,1-13,BBVA Colombia,361,13.23,74736108.0
+2026-10-30,Banco,1-13,BBVA Colombia,60,9.43,523701.0
+2026-10-30,Banco,1-13,BBVA Colombia,90,11.59,89568506.0
+2026-10-30,Banco,1-52,Bancamía,180,11.53,433362.19
+2026-10-30,Banco,1-52,Bancamía,360,12.54,769019.67
+2026-10-30,Banco,1-52,Bancamía,361,12.5,254952.4
+2026-10-30,Banco,1-52,Bancamía,90,10.17,133685.45
+2026-10-30,Banco,1-66,Banco BTG Pactual Colombia,361,13.38,7000000.0
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,120,9.02,234664.94
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,180,10.37,1476973.02
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,30,4.52,452467.04
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,360,10.85,1359036.61
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,361,10.76,590914.26
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,60,6.37,1000.0
+2026-10-30,Cooperativa financiera,32-2,Cooperativa Financiera JFK,90,9.59,1642217.27
+2026-10-30,Compañía de financiamiento,4-31,GM Financial Colombia S.A. CF,361,13.5,550000.0
