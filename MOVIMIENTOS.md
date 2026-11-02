@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-01 21:33 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-02 16:45 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -10,16 +10,16 @@ _Actualizado: 2026-11-01 21:33 (hora Colombia). Fuente: Superintendencia Financi
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-10-28)
+## CDT: mejores tasas (últimos 7 días al 2026-10-30)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,69% | +0,05 p.p. | 10,95% | BBVA Colombia |
-| 60 días | 9,60% | −0,41 p.p. | 11,72% | Itaú |
-| 90 días | 10,68% | +0,47 p.p. | 11,95% | Tuya |
-| 180 días | 11,34% | +0,31 p.p. | 12,63% | Mibanco |
-| 360 días | 12,67% | +0,70 p.p. | 13,37% | RCI Colombia |
-| Más de 360 días | 12,95% | +0,17 p.p. | 13,81% | RCI Colombia |
+| 30 días | 9,76% | +0,10 p.p. | 10,92% | BBVA Colombia |
+| 60 días | 9,48% | −0,33 p.p. | 9,85% | Banco de Bogotá |
+| 90 días | 10,75% | +0,57 p.p. | 11,97% | Tuya |
+| 180 días | 11,20% | +0,20 p.p. | 12,71% | Financiera De Desarrollo Nacional |
+| 360 días | 12,63% | +0,57 p.p. | 13,37% | RCI Colombia |
+| Más de 360 días | 12,96% | +0,16 p.p. | 13,74% | RCI Colombia |
 
 ## Crédito de consumo (semana al 2026-10-23)
 
