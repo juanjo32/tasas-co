@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-04 22:30 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-05 15:03 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -10,16 +10,16 @@ _Actualizado: 2026-11-04 22:30 (hora Colombia). Fuente: Superintendencia Financi
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-10-30)
+## CDT: mejores tasas (últimos 7 días al 2026-11-03)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,77% | +0,11 p.p. | 10,92% | BBVA Colombia |
-| 60 días | 9,46% | −0,36 p.p. | 9,82% | Bancolombia |
-| 90 días | 10,70% | +0,53 p.p. | 11,97% | Tuya |
-| 180 días | 11,18% | +0,19 p.p. | 12,74% | Mibanco |
-| 360 días | 12,59% | +0,53 p.p. | 13,37% | RCI Colombia |
-| Más de 360 días | 12,94% | +0,13 p.p. | 13,74% | RCI Colombia |
+| 30 días | 9,67% | +0,07 p.p. | 10,91% | BBVA Colombia |
+| 60 días | 9,50% | −0,03 p.p. | 9,82% | Bancolombia |
+| 90 días | 10,81% | +0,70 p.p. | 12,15% | Banco Popular |
+| 180 días | 11,01% | +0,13 p.p. | 12,80% | Mibanco |
+| 360 días | 12,48% | +0,41 p.p. | 13,31% | Banco Pichincha |
+| Más de 360 días | 12,94% | +0,15 p.p. | 13,66% | RCI Colombia |
 
 ## Crédito de consumo (semana al 2026-10-23)
 
@@ -39,15 +39,15 @@ _Actualizado: 2026-11-04 22:30 (hora Colombia). Fuente: Superintendencia Financi
 - **Banco Serfinanza**, Libranza: 25,73% (+4,99 p.p.)
 - **Bancolombia**, Consumo de bajo monto: 58,89% (+3,50 p.p.)
 - **Bancolombia**, Crédito rotativo: 26,92% (+3,23 p.p.)
-- **Bancoomeva**, Crédito rotativo: 25,34% (+3,04 p.p.)
+- **AV Villas**, CDT 90 días: 10,17% (+3,20 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
-- **AV Villas**, CDT 360 días: 10,12% (−1,75 p.p.)
+- **AV Villas**, CDT 360 días: 9,50% (−2,34 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,00% (−1,89 p.p.)
 - **Banco de Occidente**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 26,22% (−1,42 p.p.)
 - **Tuya**, Tarjeta de crédito \(ingresos ≤ 2 SMMLV\): 25,65% (−1,23 p.p.)
 - **Tuya**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 24,73% (−1,21 p.p.)
-- **Nu Colombia CF**, Consumo de bajo monto: 48,34% (−1,15 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
