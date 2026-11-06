@@ -22679,3 +22679,560 @@ fecha,tipo_entidad,codigo_entidad,entidad,tipo_credito,producto,tasa_ea,monto,cr
 2026-10-23,Banco,1-7,Bancolombia,Vivienda,Vivienda empleados,4.91,5547011370.0,20
 2026-10-23,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Vivienda empleados,1.176,667000000.0,2
 2026-10-23,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Vivienda,Vivienda empleados,10.0,209400000.0,1
+2026-10-30,Institución oficial especial,22-1,Bancoldex,Comercial especial,Comerciales especiales directos por la banca de segundo piso,14.486,24855000000.0,9
+2026-10-30,Institución oficial especial,22-2,Findeter,Comercial especial,Comerciales especiales directos por la banca de segundo piso,13.41,1060000000.0,2
+2026-10-30,Banco,1-7,Bancolombia,Comercial especial,Comerciales especiales establecidos mediante leyes,15.7872,3785234425.0,222
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Comerciales con recursos provenientes de redescuento,12.5359,12962450309.0,22
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial ordinario,Comerciales con recursos provenientes de redescuento,16.61,4600000000.0,2
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Comerciales con recursos provenientes de redescuento,17.632,34008556541.0,82
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Comerciales con recursos provenientes de redescuento,13.4787,61508315830.0,7
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Comerciales con recursos provenientes de redescuento,13.6779,126999517730.0,41
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Comerciales con recursos provenientes de redescuento,15.3455,10236414208.0,35
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Comerciales con recursos provenientes de redescuento,14.5288,5271900723.0,8
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Comerciales con recursos provenientes de redescuento,20.485,15434658600.0,155
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Comerciales con recursos provenientes de redescuento,18.7933,13094311000.0,65
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Comercial ordinario,Comerciales con recursos provenientes de redescuento,22.7429,175000000.0,2
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Comerciales con recursos provenientes de redescuento,24.9988,1844966285.0,3
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Construcción - financiación de proyectos viales en pesos,17.7415,226395000.0,3
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Construcción - financiación de proyectos viales en pesos,22.2654,250810000.0,4
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en pesos),15.0109,48882595470.0,26
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en pesos),13.8042,15960000000.0,11
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en pesos),17.4665,1595589071.0,2
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en uvr),6.9915,6280000000.0,3
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en uvr),7.78,400000000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Construcción de proyectos de vivienda no vis (colocación en uvr),7.4313,53843212851.0,16
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en pesos),14.9909,14426521267.0,13
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en pesos),13.9976,11937000000.0,11
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en pesos),14.871,2720060000.0,4
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en pesos),17.9,2744000000.0,1
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en uvr),7.6552,4950000000.0,4
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en uvr),8.6992,4717000001.0,3
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en uvr),8.0331,50072474379.0,21
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Comercial ordinario,Construcción de proyectos de vivienda vis (colocación en uvr),6.5,1044110000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Empresarial en UVR,8.081,4855199600.0,4
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Empresarial en pesos,15.0321,795041720665.0,2400
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial ordinario,Empresarial en pesos,14.9123,196712000000.0,11
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Empresarial en pesos,16.5039,183972766238.0,277
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Empresarial en pesos,14.8806,11543809054.0,11
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Empresarial en pesos,14.6154,392168259282.62,200
+2026-10-30,Banco,1-30,Banco Caja Social,Comercial ordinario,Empresarial en pesos,16.0742,32874536730.0,58
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Empresarial en pesos,18.6971,140720225976.0,822
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Empresarial en pesos,15.6218,12796750000.0,22
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Empresarial en pesos,14.7011,9690843194.0,14
+2026-10-30,Banco,1-53,Banco W,Comercial ordinario,Empresarial en pesos,25.2741,2472217043.25,19
+2026-10-30,Banco,1-54,Bancoomeva,Comercial ordinario,Empresarial en pesos,17.9521,78149900747.0,68
+2026-10-30,Banco,1-57,Banco Pichincha,Comercial ordinario,Empresarial en pesos,13.4204,125761745613.04,12
+2026-10-30,Banco,1-58,Coopcentral,Comercial ordinario,Empresarial en pesos,14.1762,7701900000.0,16
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Empresarial en pesos,15.5089,200120438035.2,463
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Comercial ordinario,Empresarial en pesos,24.6444,8938234000.0,167
+2026-10-30,Banco,1-62,Mibanco,Comercial ordinario,Empresarial en pesos,28.1923,669065912.61,68
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Empresarial en pesos,19.082,17660059779.0,60
+2026-10-30,Banco,1-67,Banco Unión,Comercial ordinario,Empresarial en pesos,19.47,470000000.0,4
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Empresarial en pesos,16.7765,652027266387.59,4794
+2026-10-30,Institución oficial especial,22-1,Bancoldex,Comercial ordinario,Empresarial en pesos,16.1149,22009590200.0,12
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Comercial ordinario,Empresarial en pesos,22.1556,4265691543.0,456
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Comercial ordinario,Empresarial en pesos,24.5078,431808440.0,25
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Comercial ordinario,Empresarial en pesos,20.4005,684087141.0,12
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Empresarial en pesos,21.1709,1015213420.0,4
+2026-10-30,Compañía de financiamiento,4-108,Iris CF,Comercial ordinario,Empresarial en pesos,21.2709,4623846000.0,6
+2026-10-30,Compañía de financiamiento,4-117,Credifamilia,Comercial ordinario,Empresarial en pesos,24.95,59934192.0,3
+2026-10-30,Compañía de financiamiento,4-122,RCI Colombia,Comercial ordinario,Empresarial en pesos,24.4594,1956832075.0,33
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Comercial ordinario,Empresarial en pesos,22.6862,11601472879.0,7
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Factoring,14.8008,34455531472.0,800
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Factoring,15.0473,562317375290.99,9134
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Factoring,14.6014,274020729431.99,622
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Factoring,14.459,186983127413.0,516
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Factoring,14.99,3946322841.12,71
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Factoring,14.4491,158639296760.26,3830
+2026-10-30,Banco,1-57,Banco Pichincha,Comercial ordinario,Factoring,0.0,7196348756.0,8
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Factoring,15.9638,43267566886.07,149
+2026-10-30,Banco,1-65,Lulo Bank,Comercial ordinario,Factoring,17.8246,2636787207.34,22
+2026-10-30,Banco,1-66,Banco BTG Pactual Colombia,Comercial ordinario,Factoring,15.0622,22141477459.19,932
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Factoring,14.5308,333482543144.0,17663
+2026-10-30,Banco,1-9,Citibank,Comercial ordinario,Factoring,14.978,33882694707.81,376
+2026-10-30,Corporación financiera,2-42,BNP Paribas,Comercial ordinario,Factoring,14.4713,169971936.21,8
+2026-10-30,Institución oficial especial,22-1,Bancoldex,Comercial ordinario,Factoring,16.4358,12888296882.33,887
+2026-10-30,Compañía de financiamiento,4-108,Iris CF,Comercial ordinario,Factoring,18.8452,17023316582.0,339
+2026-10-30,Compañía de financiamiento,4-122,RCI Colombia,Comercial ordinario,Factoring,18.3425,121324476604.0,2482
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Comercial ordinario,Factoring,18.5626,24690033782.0,94
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial ordinario,Financiero e institucional,17.63,2200000000.0,1
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Financiero e institucional,9.6133,1500000000.0,2
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Financiero e institucional,17.7474,40694312464.0,5
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Financiero e institucional,15.25,133974972.0,6
+2026-10-30,Banco,1-54,Bancoomeva,Comercial ordinario,Financiero e institucional,14.99,5000000000.0,1
+2026-10-30,Banco,1-58,Coopcentral,Comercial ordinario,Financiero e institucional,13.4742,8020000000.0,8
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Financiero e institucional,13.4564,35971450000.0,12
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Financiero e institucional,18.881,824433016.0,2
+2026-10-30,Institución oficial especial,22-4,Finagro,Comercial ordinario,Financiero e institucional para colocaciones con recursos de redescuento,9.9512,289725906315.0,8954
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,18.3393,3903589554.0,6
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,17.28,10270000000.0,1
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,15.6373,76861252321.0,27
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,18.0969,13411622761.0,14
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,16.248,6271084000.0,2
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,20.8,419394834.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,16.0173,42676577145.0,18
+2026-10-30,Institución oficial especial,22-1,Bancoldex,Comercial ordinario,Leasing financiero - financiación inmuebles diferente de habitacional,19.2645,1320000000.0,2
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,16.4557,23812404203.0,19
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,14.4673,11030134431.0,15
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,14.39,1317244468.0,1
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,15.6792,30790673763.0,23
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,18.0927,4251896580.0,17
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,16.7205,1043419512.0,3
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,15.1511,49261623122.0,36
+2026-10-30,Institución oficial especial,22-1,Bancoldex,Comercial ordinario,Leasing financiero - financiación maquinaria y equipo,17.8482,3120068510.76,3
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Leasing financiero - financiación vehículos,15.5252,13049829913.0,32
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Leasing financiero - financiación vehículos,16.0685,12101071057.0,34
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Leasing financiero - financiación vehículos,16.5037,22340127789.46,56
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Leasing financiero - financiación vehículos,20.1781,11331387561.0,40
+2026-10-30,Banco,1-55,Finandina,Comercial ordinario,Leasing financiero - financiación vehículos,22.033,705681000.0,6
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Leasing financiero - financiación vehículos,17.0,439900000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Leasing financiero - financiación vehículos,16.438,23113411913.0,50
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Leasing financiero - otros,16.2795,58032383528.0,28
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Leasing financiero - otros,14.8087,1233248620.0,2
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Leasing financiero - otros,14.11,1943358368.0,1
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Leasing financiero - otros,19.6562,995436955.0,3
+2026-10-30,Banco,1-55,Finandina,Comercial ordinario,Leasing financiero - otros,19.4164,306448646.0,3
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Leasing financiero - otros,15.33,271454292.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Leasing financiero - otros,13.959,42640242172.0,78
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Oficial o Gobierno,14.2964,28183541466.0,8
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Oficial o Gobierno,15.3156,22453789070.0,8
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Oficial o Gobierno,15.799,61941214380.0,29
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Oficial o Gobierno,14.3719,1222016047.0,4
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Oficial o Gobierno,13.9492,1409602027.0,68
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Oficial o Gobierno,13.8741,22266082299.42,5
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Otros Comercial,15.9521,8434600528.4,32
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Otros Comercial,19.1987,39091050870.0,383
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Otros Comercial,16.24,1976186984.0,1
+2026-10-30,Banco,1-65,Lulo Bank,Comercial ordinario,Otros Comercial,18.11,150000000.0,1
+2026-10-30,Banco,1-68,Banco Contactar,Comercial ordinario,Otros Comercial,28.58,1194300000.0,14
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Otros Comercial,24.45,35864442.0,1
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Comercial ordinario,Otros Comercial,26.8304,1786500000.0,19
+2026-10-30,Compañía de financiamiento,4-121,Financiera Juriscoop CF,Comercial ordinario,Otros Comercial,17.9164,2201200765.97,5
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Comercial ordinario,Otros Comercial,27.2411,2648344640.0,32
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Otros Construcción (Colocacion en pesos),19.96,200000000.0,1
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Otros Construcción (Colocacion en pesos),17.2005,5518707000.0,7
+2026-10-30,Compañía de financiamiento,4-108,Iris CF,Comercial ordinario,Otros Construcción (Colocacion en pesos),26.7,900000000.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,23.2797,128750881604.0,1355
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,27.42,5945248442.37,59
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.3562,116289752406.5,256
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.32,473014358.16,12
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.44,132107615190.65,868
+2026-10-30,Banco,1-30,Banco Caja Social,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,27.95,3215489737.67,810
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,23.0993,830072694611.0,2442
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.59,24845895111.97,239
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.57,1345475496.13,41
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.59,7899991830.06,73
+2026-10-30,Banco,1-54,Bancoomeva,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,27.638,81397178.45,11
+2026-10-30,Banco,1-58,Coopcentral,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,23.4294,132565362.98,5
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,16.7236,72920069646.18,131
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.59,553774748.08,28
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,22.4361,673126703756.89,11813
+2026-10-30,Banco,1-9,Citibank,Comercial ordinario,Sobregiro en cuenta corriente persona jurídica o persona natural,28.55,5875059316.52,7
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial ordinario,Tarjeta de crédito empresarial,12.0389,45771963604.0,83596
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial ordinario,Tarjeta de crédito empresarial,26.5508,1370541939.0,2273
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial ordinario,Tarjeta de crédito empresarial,9.2799,9554817241.61,23305
+2026-10-30,Banco,1-2,Banco Popular,Comercial ordinario,Tarjeta de crédito empresarial,11.5397,77093971.95,159
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial ordinario,Tarjeta de crédito empresarial,28.103,12348946703.0,17900
+2026-10-30,Banco,1-30,Banco Caja Social,Comercial ordinario,Tarjeta de crédito empresarial,25.34,4085449783.0,17032
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial ordinario,Tarjeta de crédito empresarial,6.0589,33047583023.12,53327
+2026-10-30,Banco,1-42,Banco Davibank,Comercial ordinario,Tarjeta de crédito empresarial,28.1753,1505494636.0,3643
+2026-10-30,Banco,1-43,Banagrario,Comercial ordinario,Tarjeta de crédito empresarial,22.8266,378856881.62,118
+2026-10-30,Banco,1-49,AV Villas,Comercial ordinario,Tarjeta de crédito empresarial,11.048,244598456.37,429
+2026-10-30,Banco,1-54,Bancoomeva,Comercial ordinario,Tarjeta de crédito empresarial,28.2079,135910660.3,327
+2026-10-30,Banco,1-55,Finandina,Comercial ordinario,Tarjeta de crédito empresarial,25.3973,503363986.48,1853
+2026-10-30,Banco,1-58,Coopcentral,Comercial ordinario,Tarjeta de crédito empresarial,20.05,171549587.48,356
+2026-10-30,Banco,1-6,Itaú,Comercial ordinario,Tarjeta de crédito empresarial,2.3998,3390351241.01,4861
+2026-10-30,Banco,1-63,Banco Serfinanza,Comercial ordinario,Tarjeta de crédito empresarial,28.54,360546903.75,798
+2026-10-30,Banco,1-7,Bancolombia,Comercial ordinario,Tarjeta de crédito empresarial,7.6426,178104440788.02,286700
+2026-10-30,Banco,1-9,Citibank,Comercial ordinario,Tarjeta de crédito empresarial,0.0,9204225553.15,27377
+2026-10-30,Cooperativa financiera,32-5,Confiar,Comercial ordinario,Tarjeta de crédito empresarial,27.8007,36996172.0,25
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Comercial ordinario,Tarjeta de crédito empresarial,28.48,17266459.0,82
+2026-10-30,Banco,1-30,Banco Caja Social,Comercial preferencial o corporativo,Construcción de proyectos de vivienda  vis (colocación en uvr),6.2629,9148107154.0,5
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial preferencial o corporativo,Construcción de proyectos de vivienda  vis (colocación en uvr),7.2287,38142000000.0,23
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial preferencial o corporativo,Construcción de proyectos de vivienda no vis (colocación en uvr),7.1931,45467139399.0,31
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial preferencial o corporativo,Construcción de proyectos de vivienda vis (colocación en pesos),14.95,200000000.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial preferencial o corporativo,Corporativo,13.9577,231170724481.0,137
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Comercial preferencial o corporativo,Corporativo,17.7931,2600000000.0,2
+2026-10-30,Banco,1-13,BBVA Colombia,Comercial preferencial o corporativo,Corporativo,14.5176,399736684501.0,57
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial preferencial o corporativo,Corporativo,14.0731,53241223409.33,11
+2026-10-30,Banco,1-30,Banco Caja Social,Comercial preferencial o corporativo,Corporativo,14.3277,61007115944.43,21
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial preferencial o corporativo,Corporativo,14.9362,876875737363.0,102
+2026-10-30,Banco,1-42,Banco Davibank,Comercial preferencial o corporativo,Corporativo,14.4922,18423413654.0,5
+2026-10-30,Banco,1-43,Banagrario,Comercial preferencial o corporativo,Corporativo,14.3036,16124758851.0,9
+2026-10-30,Banco,1-49,AV Villas,Comercial preferencial o corporativo,Corporativo,14.5278,66907820111.0,40
+2026-10-30,Banco,1-57,Banco Pichincha,Comercial preferencial o corporativo,Corporativo,13.404,8016629619.57,4
+2026-10-30,Banco,1-58,Coopcentral,Comercial preferencial o corporativo,Corporativo,14.5102,10499000000.0,3
+2026-10-30,Banco,1-59,Banco Santander,Comercial preferencial o corporativo,Corporativo,15.7799,178556926554.0,1815
+2026-10-30,Banco,1-66,Banco BTG Pactual Colombia,Comercial preferencial o corporativo,Corporativo,16.6236,4700000000.0,2
+2026-10-30,Banco,1-67,Banco Unión,Comercial preferencial o corporativo,Corporativo,17.01,800000000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Comercial preferencial o corporativo,Corporativo,14.7849,403263013758.0,422
+2026-10-30,Banco,1-9,Citibank,Comercial preferencial o corporativo,Corporativo,15.3705,212987167538.56,1840
+2026-10-30,Institución oficial especial,22-3,Financiera De Desarrollo Nacional,Comercial preferencial o corporativo,Otros Construcción,14.47,300000000000.0,1
+2026-10-30,Banco,1-39,Banco Davivienda,Comercial preferencial o corporativo,Otros Construcción (Colocacion en UVR),7.4,500000000.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Comercial tesoreria,Empresarial - Tesoreria,12.7337,25892683066.0,2
+2026-10-30,Banco,1-23,Banco de Occidente,Comercial tesoreria,Empresarial - Tesoreria,15.8152,51803315271.51,14
+2026-10-30,Banco,1-59,Banco Santander,Comercial tesoreria,Empresarial - Tesoreria,13.1839,326563464532.25,3543
+2026-10-30,Banco,1-9,Citibank,Comercial tesoreria,Empresarial - Tesoreria,15.78,1000000000.0,1
+2026-10-30,Corporación financiera,2-42,BNP Paribas,Comercial tesoreria,Empresarial - Tesoreria,12.9,15000000000.0,2
+2026-10-30,Banco,1-43,Banagrario,Comercial tesoreria,Otros Comercial,21.6,350000000.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Consumo empleados,8.25,1416782865.0,23
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Consumo empleados,15.32,301136256.0,6
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Consumo empleados,15.9874,2515686748.0,81
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Consumo empleados,7.0101,456646556.0,28
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Consumo empleados,14.1869,590029624.0,5
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Consumo empleados,11.65,86294808.0,1
+2026-10-30,Banco,1-43,Banagrario,Consumo,Consumo empleados,6.25,228000000.0,3
+2026-10-30,Banco,1-52,Bancamía,Consumo,Consumo empleados,5.8779,30820967.0,7
+2026-10-30,Banco,1-62,Mibanco,Consumo,Consumo empleados,15.0,25000000.0,2
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Consumo empleados,17.8056,331352965.27,1017
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Consumo empleados,28.34,10000000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Consumo empleados,12.2871,2590998780.0,76
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Consumo,Consumo empleados,8.6601,216056775.0,4
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Consumo,Consumo empleados,16.5184,21254000.0,2
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Consumo otros,11.8534,2901603931.69,56
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Consumo otros,16.1048,6016979716.0,1873
+2026-10-30,Banco,1-43,Banagrario,Consumo,Consumo otros,22.48,190000000.0,1
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Consumo otros,20.84,159990000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Consumo otros,12.31,20000000.0,1
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Consumo,Consumo otros,28.0309,120752000.0,14
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Consumo,Consumo otros,20.6638,106610630.0,7
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Crédito rotativo,26.567,17273811145.0,12128
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Crédito rotativo,27.12,127589424.0,41
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Crédito rotativo,26.9923,2967946078.98,2618
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Crédito rotativo,23.9725,537130717.0,74
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Crédito rotativo,28.02,138978000.0,59
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Crédito rotativo,27.9082,65701391230.0,36329
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Crédito rotativo,26.8102,10677322450.55,8416
+2026-10-30,Banco,1-43,Banagrario,Consumo,Crédito rotativo,28.02,507812000.0,27
+2026-10-30,Banco,1-49,AV Villas,Consumo,Crédito rotativo,24.7371,342835156.85,251
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Crédito rotativo,21.0642,6091309957.0,1401
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Crédito rotativo,21.7626,628600353.0,309
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Crédito rotativo,28.48,7134690050.0,1887
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Crédito rotativo,25.5759,45699803227.45,25223
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Consumo,Crédito rotativo,24.4098,654120423.0,147
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Consumo,Crédito rotativo,28.5,375073215.0,676
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Créditos de consumo de bajo monto,63.9795,26816313178.0,6596
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Créditos de consumo de bajo monto,51.1387,3309826464.0,3102
+2026-10-30,Banco,1-56,Banco Falabella,Consumo,Créditos de consumo de bajo monto,49.2334,123270000.0,27
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Créditos de consumo de bajo monto,59.7096,4116733000.0,2814
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Consumo,Créditos de consumo de bajo monto,0.0,23119993.93,546
+2026-10-30,Compañía de financiamiento,4-128,Nu Colombia CF,Consumo,Créditos de consumo de bajo monto,47.9846,4557255812.72,2562
+2026-10-30,Compañía de financiamiento,4-130,Nequi CF,Consumo,Créditos de consumo de bajo monto,42.6429,54796114961.4,43791
+2026-10-30,Compañía de financiamiento,4-26,Tuya,Consumo,Créditos de consumo de bajo monto,59.1448,1547621064.0,8213
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Créditos educativos diferentes a libranza,21.5,21465361.0,1
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Créditos educativos diferentes a libranza,23.7096,22721408.0,2
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Créditos educativos diferentes a libranza,23.73,5673802.61,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Libranza otros,19.4463,98806977498.0,1960
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Libranza otros,19.2418,83720274610.95,1773
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Libranza otros,17.0389,124340258946.56,1570
+2026-10-30,Banco,1-2,Banco Popular,Consumo,Libranza otros,17.3797,180875075000.0,2638
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Libranza otros,19.215,79402205701.55,1487
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Libranza otros,18.2092,41258433447.0,1173
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Libranza otros,19.9786,74577210347.0,2385
+2026-10-30,Banco,1-43,Banagrario,Consumo,Libranza otros,17.9019,46678896826.0,1476
+2026-10-30,Banco,1-49,AV Villas,Consumo,Libranza otros,16.9425,43711971743.0,618
+2026-10-30,Banco,1-51,Bancien,Consumo,Libranza otros,20.4723,37288140046.0,1183
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Libranza otros,27.12,205000000.0,1
+2026-10-30,Banco,1-55,Finandina,Consumo,Libranza otros,23.8656,4761009785.0,169
+2026-10-30,Banco,1-57,Banco Pichincha,Consumo,Libranza otros,15.2958,142172696256.0,1300
+2026-10-30,Banco,1-58,Coopcentral,Consumo,Libranza otros,14.2892,346500000.0,7
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Libranza otros,22.417,5696155797.41,201
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Libranza otros,20.93,6341928487.0,162
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Libranza otros,18.8835,35830212588.38,1201
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Consumo,Libranza otros,23.5106,40200000.0,3
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Consumo,Libranza otros,17.1437,3756536000.0,167
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Consumo,Libranza otros,17.2986,5640230895.0,402
+2026-10-30,Cooperativa financiera,32-5,Confiar,Consumo,Libranza otros,17.9652,6212411650.0,221
+2026-10-30,Compañía de financiamiento,4-108,Iris CF,Consumo,Libranza otros,18.7709,587351997.0,29
+2026-10-30,Compañía de financiamiento,4-120,La Hipotecaria,Consumo,Libranza otros,20.2451,941988236.0,22
+2026-10-30,Compañía de financiamiento,4-121,Financiera Juriscoop CF,Consumo,Libranza otros,22.9023,12279589026.0,422
+2026-10-30,Compañía de financiamiento,4-129,Koa CF,Consumo,Libranza otros,21.3405,14884474582.0,667
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Consumo,Libranza otros,21.1742,10143553803.0,395
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Libre inversión,22.3753,261086666859.0,15644
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Libre inversión,19.5239,1009411390.1,18
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Libre inversión,21.335,119213723554.09,4601
+2026-10-30,Banco,1-2,Banco Popular,Consumo,Libre inversión,25.02,100000000.0,1
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Libre inversión,20.7301,75320877322.53,1116
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Libre inversión,23.0844,31926440000.0,2388
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Libre inversión,22.4015,174853476468.0,8806
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Libre inversión,22.9515,67368228217.0,1919
+2026-10-30,Banco,1-43,Banagrario,Consumo,Libre inversión,25.7156,401160000.0,25
+2026-10-30,Banco,1-49,AV Villas,Consumo,Libre inversión,19.239,51666800264.0,1133
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Libre inversión,22.2998,21093097167.0,425
+2026-10-30,Banco,1-55,Finandina,Consumo,Libre inversión,28.4145,1556688617.0,95
+2026-10-30,Banco,1-56,Banco Falabella,Consumo,Libre inversión,23.2935,67551996084.0,5454
+2026-10-30,Banco,1-58,Coopcentral,Consumo,Libre inversión,14.063,660987031.0,10
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Consumo,Libre inversión,28.2723,9860820000.0,1952
+2026-10-30,Banco,1-62,Mibanco,Consumo,Libre inversión,28.25,20070684.66,2
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Libre inversión,23.1307,4310229146.43,287
+2026-10-30,Banco,1-65,Lulo Bank,Consumo,Libre inversión,22.1901,19922838536.81,2146
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Libre inversión,20.5428,228808075.0,5
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Libre inversión,19.4884,193494955050.1,6512
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Consumo,Libre inversión,25.0429,2094527365.0,193
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Consumo,Libre inversión,22.8612,18246276193.0,962
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Consumo,Libre inversión,22.6329,6926478257.0,454
+2026-10-30,Cooperativa financiera,32-5,Confiar,Consumo,Libre inversión,18.3741,5719115783.0,432
+2026-10-30,Compañía de financiamiento,4-117,Credifamilia,Consumo,Libre inversión,22.0498,886985783.0,169
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Consumo,Libre inversión,25.8449,533530000.0,22
+2026-10-30,Compañía de financiamiento,4-120,La Hipotecaria,Consumo,Libre inversión,24.0,24998594.0,3
+2026-10-30,Compañía de financiamiento,4-121,Financiera Juriscoop CF,Consumo,Libre inversión,26.8699,291052000.0,41
+2026-10-30,Compañía de financiamiento,4-124,Rappipay,Consumo,Libre inversión,22.7176,9687901117.96,939
+2026-10-30,Compañía de financiamiento,4-128,Nu Colombia CF,Consumo,Libre inversión,23.9345,5079129518.0,894
+2026-10-30,Compañía de financiamiento,4-130,Nequi CF,Consumo,Libre inversión,27.1682,17349322600.0,2062
+2026-10-30,Compañía de financiamiento,4-26,Tuya,Consumo,Libre inversión,27.5262,5485550000.0,552
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Consumo,Libre inversión,28.4787,213304281.0,151
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Sobregiro en cuenta corriente persona natural,28.59,2647880420.0,2730
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Sobregiro en cuenta corriente persona natural,27.42,165965856.64,177
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Sobregiro en cuenta corriente persona natural,28.4426,324467755.8,583
+2026-10-30,Banco,1-2,Banco Popular,Consumo,Sobregiro en cuenta corriente persona natural,28.32,3866038.31,1
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Sobregiro en cuenta corriente persona natural,28.44,2590314147.44,774
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Sobregiro en cuenta corriente persona natural,27.95,997934157.41,2077
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Sobregiro en cuenta corriente persona natural,28.48,12169365787.0,10214
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Sobregiro en cuenta corriente persona natural,28.59,1089445327.77,6181
+2026-10-30,Banco,1-43,Banagrario,Consumo,Sobregiro en cuenta corriente persona natural,28.57,1782775330.12,149
+2026-10-30,Banco,1-49,AV Villas,Consumo,Sobregiro en cuenta corriente persona natural,28.59,100732504.41,101
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Sobregiro en cuenta corriente persona natural,28.2954,4397515.44,10
+2026-10-30,Banco,1-56,Banco Falabella,Consumo,Sobregiro en cuenta corriente persona natural,28.58,69934636.81,291
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Sobregiro en cuenta corriente persona natural,28.59,63858651.0,4
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Sobregiro en cuenta corriente persona natural,28.5604,29663778931.48,31125
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,18.2796,19093925963.0,152506
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,26.5614,381969596.0,2121
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,22.1422,79072321183.07,376101
+2026-10-30,Banco,1-2,Banco Popular,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,18.1981,857412565.36,5240
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,28.0151,3771074699.0,30443
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,12.5056,89050761265.48,955645
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,28.1615,36090446675.92,285765
+2026-10-30,Banco,1-43,Banagrario,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,19.0934,308921986.71,1137
+2026-10-30,Banco,1-49,AV Villas,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,19.2646,11464440666.23,62509
+2026-10-30,Banco,1-51,Bancien,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,4.6127,14223094.0,142
+2026-10-30,Banco,1-53,Banco W,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,28.09,42812402.0,391
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,22.1997,6614675508.27,19449
+2026-10-30,Banco,1-55,Finandina,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,28.0761,881744532.98,9104
+2026-10-30,Banco,1-56,Banco Falabella,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,15.5283,63421114319.14,344755
+2026-10-30,Banco,1-58,Coopcentral,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,20.05,44545700.61,192
+2026-10-30,Banco,1-6,Itaú,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,3.7138,590864011.53,1581
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,27.4164,13436601150.28,64430
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,26.67,69412528.0,254
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,17.9842,109106387814.32,709626
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,26.52,357089354.0,2681
+2026-10-30,Cooperativa financiera,32-5,Confiar,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,27.8113,494601753.0,1423
+2026-10-30,Compañía de financiamiento,4-121,Financiera Juriscoop CF,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,18.2367,59269579.0,348
+2026-10-30,Compañía de financiamiento,4-128,Nu Colombia CF,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,26.9548,189704244553.08,1761569
+2026-10-30,Compañía de financiamiento,4-26,Tuya,Consumo,Tarjeta de crédito para ingresos hasta 2 SMMLV,26.2438,43712968226.09,183357
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,15.4981,282996096975.0,1063275
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.4097,3979941601.0,19359
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,17.9572,175472378380.34,671986
+2026-10-30,Banco,1-2,Banco Popular,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,18.204,18184107242.16,77163
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.138,74514633056.0,355241
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,28.0011,18619973041.0,109663
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,13.4886,537385168617.14,2387573
+2026-10-30,Banco,1-42,Banco Davibank,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,27.5483,253918371129.73,1428717
+2026-10-30,Banco,1-43,Banagrario,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,18.1116,7508343534.98,17741
+2026-10-30,Banco,1-49,AV Villas,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,15.6867,44787132562.76,169693
+2026-10-30,Banco,1-51,Bancien,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.5378,371919683.48,2280
+2026-10-30,Banco,1-53,Banco W,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,28.09,361102072.0,2189
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,28.14,36680.0,1
+2026-10-30,Banco,1-55,Finandina,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,27.6742,8011339457.48,27880
+2026-10-30,Banco,1-56,Banco Falabella,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,14.2027,173617391777.78,809080
+2026-10-30,Banco,1-58,Coopcentral,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,20.05,344797235.44,1039
+2026-10-30,Banco,1-6,Itaú,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,3.9361,389224183.0,124
+2026-10-30,Banco,1-63,Banco Serfinanza,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.8907,14778809437.89,60120
+2026-10-30,Banco,1-65,Lulo Bank,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,14.0448,8321994204.46,62239
+2026-10-30,Banco,1-67,Banco Unión,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.67,86916161.0,302
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,13.465,591404986527.03,2737902
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,26.52,173741321.0,1184
+2026-10-30,Cooperativa financiera,32-5,Confiar,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,27.7972,257268072.0,509
+2026-10-30,Compañía de financiamiento,4-121,Financiera Juriscoop CF,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,21.0139,565187545.0,2317
+2026-10-30,Compañía de financiamiento,4-128,Nu Colombia CF,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,27.2373,197308341660.2,1463692
+2026-10-30,Compañía de financiamiento,4-26,Tuya,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,25.2566,53861419507.95,224316
+2026-10-30,Compañía de financiamiento,4-46,Coltefinanciera,Consumo,Tarjeta de crédito para ingresos superiores a 2 SMMLV,28.1185,167862670.0,424
+2026-10-30,Banco,1-1,Banco de Bogotá,Consumo,Vehículo,20.502,22381128184.0,289
+2026-10-30,Banco,1-13,BBVA Colombia,Consumo,Vehículo,20.4671,32312073682.0,397
+2026-10-30,Banco,1-23,Banco de Occidente,Consumo,Vehículo,18.9428,72929179084.67,766
+2026-10-30,Banco,1-30,Banco Caja Social,Consumo,Vehículo,19.382,11421331061.0,140
+2026-10-30,Banco,1-39,Banco Davivienda,Consumo,Vehículo,19.2174,24995481338.0,280
+2026-10-30,Banco,1-54,Bancoomeva,Consumo,Vehículo,21.2395,3997123757.0,32
+2026-10-30,Banco,1-55,Finandina,Consumo,Vehículo,22.0463,92917346820.0,1257
+2026-10-30,Banco,1-59,Banco Santander,Consumo,Vehículo,22.4193,126305642685.0,1740
+2026-10-30,Banco,1-7,Bancolombia,Consumo,Vehículo,18.1545,54671125437.0,647
+2026-10-30,Compañía de financiamiento,4-122,RCI Colombia,Consumo,Vehículo,23.1595,32731892099.0,564
+2026-10-30,Compañía de financiamiento,4-31,GM Financial Colombia S.A. CF,Consumo,Vehículo,24.16,42740857999.0,667
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito popular productivo rural (con recursos de redescuento),18.4808,9717614100.0,1458
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito popular productivo rural (con recursos de redescuento),19.3318,50200000.0,6
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Crédito productivo,Crédito popular productivo rural (con recursos de redescuento),23.56,10000000.0,1
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),62.082,259700000.0,62
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),34.4638,3763350000.0,648
+2026-10-30,Banco,1-52,Bancamía,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),62.0074,2269353424.5,415
+2026-10-30,Banco,1-53,Banco W,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),63.4102,1322992729.41,397
+2026-10-30,Banco,1-59,Banco Santander,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),50.6136,2021002411.38,510
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),64.8805,3239358053.15,1164
+2026-10-30,Banco,1-62,Mibanco,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),59.8722,2161303000.0,572
+2026-10-30,Banco,1-68,Banco Contactar,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),62.0735,2041300000.0,522
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),55.6545,217503000.0,39
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),40.6268,92656000.0,16
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),20.16,6839614.0,1
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),26.6,6081240.0,1
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),62.7862,1206962000.0,287
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Crédito productivo,Crédito popular productivo rural (sin recursos de redescuento),33.6425,28147547.13,120
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito popular productivo urbano  (con recursos de redescuento),18.7765,7810541690.0,1174
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito popular productivo urbano  (con recursos de redescuento),19.08,53450000.0,6
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),64.3322,7782633430.0,1499
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),35.5333,9628805000.0,1570
+2026-10-30,Banco,1-52,Bancamía,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),66.7838,7391083007.0,1500
+2026-10-30,Banco,1-53,Banco W,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),68.8493,7218480217.09,2270
+2026-10-30,Banco,1-59,Banco Santander,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),65.6277,4404421644.75,1196
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),64.8985,18962887601.0,6166
+2026-10-30,Banco,1-62,Mibanco,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),65.5891,15832738361.61,4929
+2026-10-30,Banco,1-68,Banco Contactar,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),67.6473,6720500000.0,1448
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),62.5039,2527601826.79,425
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),44.9584,491180000.0,76
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),75.3274,127100060.0,22
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),37.2941,228507222.0,35
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),26.5741,300236500.0,48
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),63.5786,1978800000.0,507
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Crédito productivo,Crédito popular productivo urbano (sin recursos de redescuento),72.5613,1424507381.79,2331
+2026-10-30,Banco,1-23,Banco de Occidente,Crédito productivo,Crédito productivo de mayor monto (con recursos de redescuento),21.3193,1233028821.21,12
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo de mayor monto (con recursos de redescuento),18.8684,31809131100.0,528
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo de mayor monto (con recursos de redescuento),22.6157,143000000.0,2
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),25.6733,32624457870.0,414
+2026-10-30,Banco,1-42,Banco Davibank,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),14.47,175000000.0,1
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),23.1478,4530899997.0,64
+2026-10-30,Banco,1-49,AV Villas,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),16.9444,1517000000.0,11
+2026-10-30,Banco,1-52,Bancamía,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),34.1642,22894270378.5,316
+2026-10-30,Banco,1-53,Banco W,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),31.3013,20974738706.27,302
+2026-10-30,Banco,1-55,Finandina,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),25.1065,2593795492.0,26
+2026-10-30,Banco,1-59,Banco Santander,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),34.33,2444048256.62,46
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),32.4405,7634000000.0,112
+2026-10-30,Banco,1-62,Mibanco,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),31.1651,40656628101.0,588
+2026-10-30,Banco,1-68,Banco Contactar,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),39.4256,2521500000.0,40
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),22.9116,6147221091.0,108
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),34.403,926280000.0,15
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),36.87,50000000.0,1
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),22.6019,363456165.0,5
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),37.8998,1016800000.0,20
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),27.1294,2491990777.42,100
+2026-10-30,Compañía de financiamiento,4-31,GM Financial Colombia S.A. CF,Crédito productivo,Crédito productivo de mayor monto (sin recursos de redescuento),26.3141,275410001.0,3
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito productivo rural  (con recursos de redescuento),29.69,43000000.0,1
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo rural  (con recursos de redescuento),17.8741,49721992175.0,2280
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo rural  (con recursos de redescuento),21.6961,133000000.0,7
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito productivo rural  (con recursos de redescuento),19.14,32168064.0,1
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),29.7598,1578450000.0,79
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),24.9983,7093370000.0,346
+2026-10-30,Banco,1-52,Bancamía,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.6394,1980451638.0,106
+2026-10-30,Banco,1-53,Banco W,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.8583,3907761467.17,210
+2026-10-30,Banco,1-59,Banco Santander,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.6,2965634158.08,189
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.95,5158240000.0,323
+2026-10-30,Banco,1-62,Mibanco,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.5854,1648020000.0,88
+2026-10-30,Banco,1-68,Banco Contactar,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.9004,4451900000.0,271
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),26.6899,1053353930.74,40
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),29.2141,216500000.0,11
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),26.6,105986156.0,3
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),30.94,1508900000.0,86
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Crédito productivo,Crédito productivo rural (sin recursos de redescuento),29.2067,78009815.56,12
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito productivo urbano  (con recursos de redescuento),47.1586,848350000.0,44
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo urbano  (con recursos de redescuento),17.9327,39494193638.0,1798
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito productivo urbano  (con recursos de redescuento),29.26,10600000.0,1
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo urbano  (con recursos de redescuento),19.9122,99100000.0,7
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito productivo urbano  (con recursos de redescuento),18.407,29590518.0,2
+2026-10-30,Banco,1-30,Banco Caja Social,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),47.2956,21452518000.0,1067
+2026-10-30,Banco,1-42,Banco Davibank,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),14.51,25000000.0,1
+2026-10-30,Banco,1-43,Banagrario,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),31.2455,16733026000.0,806
+2026-10-30,Banco,1-49,AV Villas,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),21.81,30000000.0,1
+2026-10-30,Banco,1-52,Bancamía,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),50.7728,11485878368.0,615
+2026-10-30,Banco,1-53,Banco W,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),50.449,8365013673.09,447
+2026-10-30,Banco,1-59,Banco Santander,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),53.5738,2895107966.81,184
+2026-10-30,Banco,1-60,Banco Mundo Mujer,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),48.248,18803038788.0,1069
+2026-10-30,Banco,1-62,Mibanco,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),51.2012,17888156400.0,945
+2026-10-30,Banco,1-68,Banco Contactar,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),53.8563,5920868696.0,335
+2026-10-30,Banco,1-7,Bancolombia,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),39.0661,10309557340.33,422
+2026-10-30,Cooperativa financiera,32-1,Cooperativa Financiera de Antioquia,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),39.9393,888500000.0,42
+2026-10-30,Cooperativa financiera,32-2,JFK Cooperativa Financiera,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),51.8898,436546770.0,26
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),29.3982,429574771.0,22
+2026-10-30,Cooperativa financiera,32-5,Confiar,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),26.6215,719396011.0,30
+2026-10-30,Compañía de financiamiento,4-118,Crezcamos,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),53.8079,1350500000.0,69
+2026-10-30,Compañía de financiamiento,4-127,Bold CF,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),46.3283,2398771153.83,896
+2026-10-30,Compañía de financiamiento,4-31,GM Financial Colombia S.A. CF,Crédito productivo,Crédito productivo urbano (sin recursos de redescuento),25.2,42585380.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.7678,57702573091.0,285
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.1134,32806479381.91,151
+2026-10-30,Banco,1-2,Banco Popular,Vivienda,Adquisición de vivienda no vis (colocación en pesos),17.05,413000000.0,1
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición de vivienda no vis (colocación en pesos),14.914,45148495969.0,135
+2026-10-30,Banco,1-30,Banco Caja Social,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.4898,19457542776.0,125
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.6133,64295130944.0,258
+2026-10-30,Banco,1-42,Banco Davibank,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.5655,18785701344.0,80
+2026-10-30,Banco,1-43,Banagrario,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.1898,6661038116.0,42
+2026-10-30,Banco,1-49,AV Villas,Vivienda,Adquisición de vivienda no vis (colocación en pesos),14.5774,19355384673.0,49
+2026-10-30,Banco,1-54,Bancoomeva,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.7154,1874800000.0,10
+2026-10-30,Banco,1-63,Banco Serfinanza,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.8,253000000.0,1
+2026-10-30,Banco,1-67,Banco Unión,Vivienda,Adquisición de vivienda no vis (colocación en pesos),18.0,234656235.0,1
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.7881,74021779483.0,265
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Adquisición de vivienda no vis (colocación en pesos),12.3608,17952357940.15,68
+2026-10-30,Cooperativa financiera,32-5,Confiar,Vivienda,Adquisición de vivienda no vis (colocación en pesos),15.3,703000000.0,4
+2026-10-30,Compañía de financiamiento,4-117,Credifamilia,Vivienda,Adquisición de vivienda no vis (colocación en pesos),16.99,190634587.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Adquisición de vivienda no vis (colocación en uvr),9.2519,4434977253.0,15
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición de vivienda no vis (colocación en uvr),8.2244,3801910000.0,14
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición de vivienda no vis (colocación en uvr),7.8098,3256482385.0,7
+2026-10-30,Banco,1-30,Banco Caja Social,Vivienda,Adquisición de vivienda no vis (colocación en uvr),8.7697,2340415960.0,12
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición de vivienda no vis (colocación en uvr),9.6,868176898.0,4
+2026-10-30,Banco,1-43,Banagrario,Vivienda,Adquisición de vivienda no vis (colocación en uvr),9.3276,617000000.0,3
+2026-10-30,Banco,1-49,AV Villas,Vivienda,Adquisición de vivienda no vis (colocación en uvr),9.0067,680957000.0,3
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Adquisición de vivienda no vis (colocación en uvr),9.7515,13349424506.0,53
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Adquisición de vivienda no vis (colocación en uvr),7.6167,9223302568.78,35
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.9049,27486911929.0,210
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición de vivienda vis (colocación en pesos),13.0839,23136165470.71,202
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.3403,5465375904.0,40
+2026-10-30,Banco,1-30,Banco Caja Social,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.5143,29880699175.0,380
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.5079,74923072728.0,616
+2026-10-30,Banco,1-42,Banco Davibank,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.4266,9284190735.0,77
+2026-10-30,Banco,1-43,Banagrario,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.7267,5013896619.0,58
+2026-10-30,Banco,1-49,AV Villas,Vivienda,Adquisición de vivienda vis (colocación en pesos),13.7733,7795985045.0,64
+2026-10-30,Banco,1-54,Bancoomeva,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.3044,968646940.0,7
+2026-10-30,Banco,1-67,Banco Unión,Vivienda,Adquisición de vivienda vis (colocación en pesos),16.9582,1016063512.0,7
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Adquisición de vivienda vis (colocación en pesos),15.1893,47275656337.0,363
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Adquisición de vivienda vis (colocación en pesos),11.5984,28544439909.47,230
+2026-10-30,Cooperativa financiera,32-4,Cotrafa,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.7404,688774396.0,5
+2026-10-30,Cooperativa financiera,32-5,Confiar,Vivienda,Adquisición de vivienda vis (colocación en pesos),14.5689,3508749939.0,37
+2026-10-30,Compañía de financiamiento,4-117,Credifamilia,Vivienda,Adquisición de vivienda vis (colocación en pesos),16.99,941138682.0,8
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Adquisición de vivienda vis (colocación en uvr),8.8612,10552150629.0,80
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición de vivienda vis (colocación en uvr),7.1975,17892791295.0,143
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición de vivienda vis (colocación en uvr),2.3032,340681658.0,3
+2026-10-30,Banco,1-30,Banco Caja Social,Vivienda,Adquisición de vivienda vis (colocación en uvr),7.8606,10933396349.0,90
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición de vivienda vis (colocación en uvr),7.9207,27322367281.0,229
+2026-10-30,Banco,1-42,Banco Davibank,Vivienda,Adquisición de vivienda vis (colocación en uvr),8.74,112000000.0,1
+2026-10-30,Banco,1-43,Banagrario,Vivienda,Adquisición de vivienda vis (colocación en uvr),8.8156,630309168.0,5
+2026-10-30,Banco,1-49,AV Villas,Vivienda,Adquisición de vivienda vis (colocación en uvr),8.8151,1626447559.0,15
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Adquisición de vivienda vis (colocación en uvr),9.2451,26215041392.0,219
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Adquisición de vivienda vis (colocación en uvr),5.5743,39719880744.78,288
+2026-10-30,Compañía de financiamiento,4-117,Credifamilia,Vivienda,Adquisición de vivienda vis (colocación en uvr),10.2735,6269380113.0,63
+2026-10-30,Compañía de financiamiento,4-120,La Hipotecaria,Vivienda,Adquisición de vivienda vis (colocación en uvr),8.4219,1899877780.0,18
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),15.4916,14398250213.0,23
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),14.9138,20391712213.0,55
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),13.2791,19242377665.0,36
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),15.1459,52122996191.0,154
+2026-10-30,Banco,1-42,Banco Davibank,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),15.57,1081422750.0,3
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Adquisición leasing habitacional no vis (colocación en pesos),12.1522,1201775000.0,3
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición leasing habitacional no vis (colocación en uvr),1.85,1005392000.0,1
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición leasing habitacional no vis (colocación en uvr),9.0279,915000000.0,3
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Adquisición leasing habitacional vis (colocación en pesos),11.4407,631038700.0,4
+2026-10-30,Banco,1-23,Banco de Occidente,Vivienda,Adquisición leasing habitacional vis (colocación en pesos),16.63,261950000.0,1
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición leasing habitacional vis (colocación en pesos),13.9955,8176808592.0,51
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Adquisición leasing habitacional vis (colocación en uvr),7.7617,584962500.0,4
+2026-10-30,Banco,1-54,Bancoomeva,Vivienda,Construcción de vivienda individual no vis (colocación en pesos),16.49,140000000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Construcción de vivienda individual no vis (colocación en pesos),14.9975,27592153440.0,83
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Construcción de vivienda individual no vis (colocación en pesos),12.0,210000000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Construcción de vivienda individual no vis (colocación en uvr),10.2109,628938899.0,4
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Construcción de vivienda individual vis (colocación en pesos),15.199,2170192473.0,34
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Construcción de vivienda individual vis (colocación en pesos),11.0151,54034500.0,2
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Construcción de vivienda individual vis (colocación en uvr),9.6731,63408699.0,2
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Construcción de vivienda individual vis (colocación en uvr),5.6927,81098000.0,2
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Libranza adquisición de vivienda diferente de vis (colocación en pesos),15.5,155407200.0,1
+2026-10-30,Banco,1-1,Banco de Bogotá,Vivienda,Vivienda empleados,5.3632,3037745000.0,10
+2026-10-30,Banco,1-12,Banco GNB Sudameris,Vivienda,Vivienda empleados,9.38,150000000.0,1
+2026-10-30,Banco,1-13,BBVA Colombia,Vivienda,Vivienda empleados,13.0241,734200000.0,5
+2026-10-30,Banco,1-2,Banco Popular,Vivienda,Vivienda empleados,4.8855,568934822.0,3
+2026-10-30,Banco,1-39,Banco Davivienda,Vivienda,Vivienda empleados,14.4864,3103315985.0,20
+2026-10-30,Banco,1-42,Banco Davibank,Vivienda,Vivienda empleados,5.3305,1782155205.63,11
+2026-10-30,Banco,1-43,Banagrario,Vivienda,Vivienda empleados,5.0,140981900.0,1
+2026-10-30,Banco,1-49,AV Villas,Vivienda,Vivienda empleados,11.0,139800000.0,1
+2026-10-30,Banco,1-7,Bancolombia,Vivienda,Vivienda empleados,4.91,4888825842.0,19
+2026-10-30,Institución oficial especial,22-8,Fondo Nacional del Ahorro,Vivienda,Vivienda empleados,1.4592,1039239221.2,6
+2026-10-30,Cooperativa financiera,32-5,Confiar,Vivienda,Vivienda empleados,6.0,44681139.0,1
