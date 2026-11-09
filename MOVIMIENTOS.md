@@ -1,25 +1,25 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-08 21:40 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-09 17:21 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
-**$3.237,83** el 2026-11-07. Variación en 30 días: -0,03%; en un año: -14,95%. Rango de 52 semanas: $3.048 a $3.875.
+**$3.269,88** el 2026-11-10. Variación en 30 días: 2,36%; en un año: -13,48%. Rango de 52 semanas: $3.048 a $3.875.
 
 ## Tasa de usura (consumo y ordinario)
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-11-04)
+## CDT: mejores tasas (últimos 7 días al 2026-11-06)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,63% | +0,08 p.p. | 10,50% | Banco de Bogotá |
-| 60 días | 9,57% | +0,03 p.p. | 9,93% | Banco Popular |
-| 90 días | 10,82% | +0,57 p.p. | 12,15% | Mibanco |
-| 180 días | 11,37% | +0,37 p.p. | 12,80% | Mibanco |
-| 360 días | 12,30% | +0,09 p.p. | 13,34% | Banco Pichincha |
-| Más de 360 días | 12,96% | +0,27 p.p. | 13,49% | Coltefinanciera |
+| 30 días | 9,47% | −0,13 p.p. | 9,73% | Bancolombia |
+| 60 días | 9,64% | +0,05 p.p. | 9,82% | Bancolombia |
+| 90 días | 10,80% | +0,40 p.p. | 12,12% | Mibanco |
+| 180 días | 11,44% | +0,36 p.p. | 12,74% | La Hipotecaria |
+| 360 días | 12,12% | −0,15 p.p. | 13,35% | Banco Pichincha |
+| Más de 360 días | 13,05% | +0,35 p.p. | 13,94% | Finandina BIC |
 
 ## Crédito de consumo (semana al 2026-10-30)
 
@@ -36,18 +36,18 @@ _Actualizado: 2026-11-08 21:40 (hora Colombia). Fuente: Superintendencia Financi
 ## Mayores subidas (4 semanas)
 
 - **Banco de Bogotá**, Consumo de bajo monto: 63,98% (+7,14 p.p.)
-- **AV Villas**, CDT 90 días: 10,38% (+2,55 p.p.)
-- **Banco Popular**, CDT 90 días: 12,13% (+2,10 p.p.)
+- **Banco Popular**, CDT 90 días: 12,11% (+1,94 p.p.)
 - **Banco Santander**, Vehículo: 22,42% (+1,18 p.p.)
 - **JFK Cooperativa Financiera**, Libre inversión: 22,86% (+1,14 p.p.)
+- **AV Villas**, CDT 90 días: 9,87% (+1,13 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
 - **Bancoomeva**, Crédito rotativo: 21,06% (−4,87 p.p.)
-- **AV Villas**, CDT 360 días: 9,27% (−2,96 p.p.)
 - **Financiera Juriscoop CF**, Libranza: 22,90% (−2,32 p.p.)
 - **Banco de Bogotá**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 15,50% (−2,03 p.p.)
-- **Banco Caja Social**, CDT 360 días: 10,06% (−1,65 p.p.)
+- **AV Villas**, CDT 360 días: 10,80% (−1,62 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,13% (−1,57 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
