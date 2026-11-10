@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-09 23:40 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-10 14:48 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -14,12 +14,12 @@ _Actualizado: 2026-11-09 23:40 (hora Colombia). Fuente: Superintendencia Financi
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,47% | −0,13 p.p. | 9,73% | Bancolombia |
-| 60 días | 9,64% | +0,05 p.p. | 9,82% | Bancolombia |
-| 90 días | 10,80% | +0,40 p.p. | 12,12% | Mibanco |
-| 180 días | 11,44% | +0,36 p.p. | 12,74% | La Hipotecaria |
-| 360 días | 12,12% | −0,15 p.p. | 13,35% | Banco Pichincha |
-| Más de 360 días | 13,05% | +0,35 p.p. | 13,94% | Finandina BIC |
+| 30 días | 9,49% | −0,11 p.p. | 9,73% | Bancolombia |
+| 60 días | 9,73% | +0,14 p.p. | 11,40% | Itaú |
+| 90 días | 10,81% | +0,41 p.p. | 12,12% | Mibanco |
+| 180 días | 11,42% | +0,34 p.p. | 12,71% | La Hipotecaria |
+| 360 días | 12,14% | −0,14 p.p. | 13,32% | Banco Pichincha |
+| Más de 360 días | 13,05% | +0,36 p.p. | 13,55% | Coltefinanciera |
 
 ## Crédito de consumo (semana al 2026-10-30)
 
@@ -36,18 +36,18 @@ _Actualizado: 2026-11-09 23:40 (hora Colombia). Fuente: Superintendencia Financi
 ## Mayores subidas (4 semanas)
 
 - **Banco de Bogotá**, Consumo de bajo monto: 63,98% (+7,14 p.p.)
-- **Banco Popular**, CDT 90 días: 12,11% (+1,94 p.p.)
+- **Banco Popular**, CDT 90 días: 12,08% (+1,90 p.p.)
 - **Banco Santander**, Vehículo: 22,42% (+1,18 p.p.)
 - **JFK Cooperativa Financiera**, Libre inversión: 22,86% (+1,14 p.p.)
-- **AV Villas**, CDT 90 días: 9,87% (+1,13 p.p.)
+- **Nequi CF**, Consumo de bajo monto: 42,64% (+1,09 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
 - **Bancoomeva**, Crédito rotativo: 21,06% (−4,87 p.p.)
 - **Financiera Juriscoop CF**, Libranza: 22,90% (−2,32 p.p.)
 - **Banco de Bogotá**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 15,50% (−2,03 p.p.)
-- **AV Villas**, CDT 360 días: 10,80% (−1,62 p.p.)
-- **Banco Caja Social**, CDT 360 días: 10,13% (−1,57 p.p.)
+- **AV Villas**, CDT 360 días: 10,82% (−1,60 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,27% (−1,44 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
