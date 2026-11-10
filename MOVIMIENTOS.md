@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-09 17:21 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-09 23:40 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
