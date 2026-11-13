@@ -4660,9 +4660,9 @@ fecha,tipo_entidad,codigo_entidad,entidad,plazo_dias,tasa_ea,monto
 2026-10-30,Compañía de financiamiento,4-129,Koa CF,360,13.26,890274.3
 2026-10-30,Compañía de financiamiento,4-129,Koa CF,361,13.45,1155379.92
 2026-10-30,Compañía de financiamiento,4-129,Koa CF,90,11.0,61469.45
-2026-10-30,Compañía de financiamiento,4-132,Plata S.a CF,180,13.0,29800.0
-2026-10-30,Compañía de financiamiento,4-132,Plata S.a CF,60,12.0,4821.0
-2026-10-30,Compañía de financiamiento,4-132,Plata S.a CF,90,12.5,39079.0
+2026-10-30,Compañía de financiamiento,4-132,"Plata, Plata CF",180,13.0,29800.0
+2026-10-30,Compañía de financiamiento,4-132,"Plata, Plata CF",60,12.0,4821.0
+2026-10-30,Compañía de financiamiento,4-132,"Plata, Plata CF",90,12.5,39079.0
 2026-10-30,Compañía de financiamiento,4-26,Tuya,180,12.56,2048830.65
 2026-10-30,Compañía de financiamiento,4-26,Tuya,360,13.09,170000.0
 2026-10-30,Compañía de financiamiento,4-26,Tuya,361,12.46,66143.28
