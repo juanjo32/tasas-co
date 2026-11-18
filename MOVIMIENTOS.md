@@ -1,10 +1,10 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-17 16:02 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-17 23:34 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
-**$3.316,70** el 2026-11-14. Variación en 30 días: 3,72%; en un año: -10,83%. Rango de 52 semanas: $3.048 a $3.875.
+**$3.309,55** el 2026-11-18. Variación en 30 días: 4,25%; en un año: -12,09%. Rango de 52 semanas: $3.048 a $3.875.
 
 ## Tasa de usura (consumo y ordinario)
 
