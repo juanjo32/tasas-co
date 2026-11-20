@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-19 23:01 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-20 15:26 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -10,16 +10,16 @@ _Actualizado: 2026-11-19 23:01 (hora Colombia). Fuente: Superintendencia Financi
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-11-17)
+## CDT: mejores tasas (últimos 7 días al 2026-11-18)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,58% | +0,06 p.p. | 10,69% | Banco de Bogotá |
-| 60 días | 9,44% | +0,03 p.p. | 10,41% | Banco de Bogotá |
-| 90 días | 10,70% | +0,20 p.p. | 11,93% | Finandina BIC |
-| 180 días | 11,57% | +0,41 p.p. | 12,81% | Mibanco |
-| 360 días | 12,79% | +0,33 p.p. | 13,22% | Banco W |
-| Más de 360 días | 13,07% | +0,17 p.p. | 13,51% | Coltefinanciera |
+| 30 días | 9,58% | −0,02 p.p. | 10,56% | Banco de Bogotá |
+| 60 días | 9,44% | −0,07 p.p. | 10,66% | Banco de Bogotá |
+| 90 días | 10,64% | +0,17 p.p. | 11,92% | Tuya |
+| 180 días | 11,64% | +0,34 p.p. | 12,83% | Mibanco |
+| 360 días | 12,75% | +0,26 p.p. | 13,19% | Banco W |
+| Más de 360 días | 13,07% | +0,16 p.p. | 13,47% | GM Financial Colombia S.A. CF |
 
 ## Crédito de consumo (semana al 2026-11-06)
 
@@ -44,10 +44,10 @@ _Actualizado: 2026-11-19 23:01 (hora Colombia). Fuente: Superintendencia Financi
 ## Mayores bajadas (4 semanas)
 
 - **Bancolombia**, Crédito rotativo: 23,34% (−2,04 p.p.)
-- **AV Villas**, CDT 90 días: 9,01% (−1,44 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,43% (−1,90 p.p.)
+- **AV Villas**, CDT 90 días: 8,86% (−1,55 p.p.)
 - **Banco Davivienda**, Consumo de bajo monto: 50,79% (−1,38 p.p.)
 - **Banco de Bogotá**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 15,61% (−1,03 p.p.)
-- **AV Villas**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 14,64% (−1,00 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
