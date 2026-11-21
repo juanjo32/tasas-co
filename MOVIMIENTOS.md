@@ -1,10 +1,10 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-20 15:26 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-20 22:59 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
-**$3.415,10** el 2026-11-20. Variación en 30 días: 7,94%; en un año: -8,12%. Rango de 52 semanas: $3.048 a $3.875.
+**$3.461,92** el 2026-11-21. Variación en 30 días: 8,47%; en un año: -7,47%. Rango de 52 semanas: $3.048 a $3.875.
 
 ## Tasa de usura (consumo y ordinario)
 
@@ -21,33 +21,33 @@ _Actualizado: 2026-11-20 15:26 (hora Colombia). Fuente: Superintendencia Financi
 | 360 días | 12,75% | +0,26 p.p. | 13,19% | Banco W |
 | Más de 360 días | 13,07% | +0,16 p.p. | 13,47% | GM Financial Colombia S.A. CF |
 
-## Crédito de consumo (semana al 2026-11-06)
+## Crédito de consumo (semana al 2026-11-13)
 
 | Producto | Promedio | Cambio 4 sem. | Más barato | Entidad |
 |---|---|---|---|---|
-| Tarjeta de crédito \(ingresos \> 2 SMMLV\) | 17,42% | −0,79 p.p. | 13,30% | Bancolombia |
-| Tarjeta de crédito \(ingresos ≤ 2 SMMLV\) | 21,63% | −0,13 p.p. | 15,95% | Banco Falabella |
-| Libre inversión | 22,83% | +0,30 p.p. | 19,02% | AV Villas |
-| Libranza | 18,33% | +0,11 p.p. | 15,64% | Banco Pichincha |
-| Vehículo | 20,72% | +0,29 p.p. | 17,32% | Bancolombia |
-| Crédito rotativo | 26,17% | −0,47 p.p. | 23,34% | Banco Serfinanza |
-| Consumo de bajo monto | 50,01% | +3,29 p.p. | 42,10% | Nequi CF |
+| Tarjeta de crédito \(ingresos \> 2 SMMLV\) | 19,05% | +1,08 p.p. | 13,35% | Bancolombia |
+| Tarjeta de crédito \(ingresos ≤ 2 SMMLV\) | 22,52% | +0,86 p.p. | 15,61% | Banco Falabella |
+| Libre inversión | 22,33% | −0,13 p.p. | 17,98% | Confiar |
+| Libranza | 18,62% | +0,43 p.p. | 16,87% | AV Villas |
+| Vehículo | 20,55% | −0,61 p.p. | 16,26% | Bancolombia |
+| Crédito rotativo | 27,17% | −0,08 p.p. | 16,56% | Banco Serfinanza |
+| Consumo de bajo monto | 47,35% | −0,66 p.p. | 44,08% | Nequi CF |
 
 ## Mayores subidas (4 semanas)
 
-- **Banco de Bogotá**, Consumo de bajo monto: 65,58% (+6,54 p.p.)
-- **Bancoomeva**, Crédito rotativo: 25,28% (+3,95 p.p.)
-- **Banco Davivienda**, Tarjeta de crédito \(ingresos ≤ 2 SMMLV\): 17,23% (+3,93 p.p.)
-- **Tuya**, Consumo de bajo monto: 62,91% (+3,33 p.p.)
-- **Banco Davivienda**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 17,30% (+2,99 p.p.)
+- **Banco Davivienda**, Tarjeta de crédito \(ingresos ≤ 2 SMMLV\): 22,82% (+10,47 p.p.)
+- **Banco Davivienda**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 22,57% (+9,06 p.p.)
+- **Tuya**, Consumo de bajo monto: 63,56% (+3,36 p.p.)
+- **Banco Serfinanza**, Libranza: 22,97% (+2,03 p.p.)
+- **AV Villas**, CDT 360 días: 12,02% (+1,69 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
-- **Bancolombia**, Crédito rotativo: 23,34% (−2,04 p.p.)
+- **Banco de Bogotá**, Consumo de bajo monto: 57,66% (−3,18 p.p.)
+- **Financiera Juriscoop CF**, Libranza: 22,27% (−2,82 p.p.)
+- **Bancolombia**, Vehículo: 16,26% (−2,70 p.p.)
 - **Banco Caja Social**, CDT 360 días: 10,43% (−1,90 p.p.)
-- **AV Villas**, CDT 90 días: 8,86% (−1,55 p.p.)
-- **Banco Davivienda**, Consumo de bajo monto: 50,79% (−1,38 p.p.)
-- **Banco de Bogotá**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 15,61% (−1,03 p.p.)
+- **Bancoomeva**, Libre inversión: 21,98% (−1,81 p.p.)
 
 ---
 Tasas efectivas anuales promedio ponderadas por monto. Rankings solo con entidades con al menos 0,3% del monto del plazo o producto. No es asesoría financiera.
