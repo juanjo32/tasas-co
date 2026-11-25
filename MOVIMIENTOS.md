@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-25 00:31 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-25 16:54 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -10,16 +10,16 @@ _Actualizado: 2026-11-25 00:31 (hora Colombia). Fuente: Superintendencia Financi
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-11-20)
+## CDT: mejores tasas (últimos 7 días al 2026-11-23)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,51% | −0,07 p.p. | 9,78% | Banco de Bogotá |
-| 60 días | 9,78% | +0,12 p.p. | 10,78% | Banco de Bogotá |
-| 90 días | 10,75% | +0,20 p.p. | 12,09% | Mibanco |
-| 180 días | 11,36% | −0,06 p.p. | 12,90% | La Hipotecaria |
-| 360 días | 12,24% | −0,37 p.p. | 13,36% | Koa CF |
-| Más de 360 días | 13,05% | +0,10 p.p. | 13,51% | Finandina BIC |
+| 30 días | 9,48% | −0,16 p.p. | 9,75% | Bancolombia |
+| 60 días | 9,76% | +0,10 p.p. | 10,55% | Banco de Bogotá |
+| 90 días | 10,70% | +0,09 p.p. | 12,09% | Mibanco |
+| 180 días | 11,31% | −0,21 p.p. | 12,91% | La Hipotecaria |
+| 360 días | 12,30% | −0,30 p.p. | 13,36% | Koa CF |
+| Más de 360 días | 12,98% | +0,02 p.p. | 13,51% | Finandina BIC |
 
 ## Crédito de consumo (semana al 2026-11-13)
 
@@ -46,7 +46,7 @@ _Actualizado: 2026-11-25 00:31 (hora Colombia). Fuente: Superintendencia Financi
 - **Banco de Bogotá**, Consumo de bajo monto: 57,66% (−3,18 p.p.)
 - **Financiera Juriscoop CF**, Libranza: 22,27% (−2,82 p.p.)
 - **Bancolombia**, Vehículo: 16,26% (−2,70 p.p.)
-- **Banco Caja Social**, CDT 360 días: 10,30% (−2,01 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,27% (−2,04 p.p.)
 - **Bancoomeva**, Libre inversión: 21,98% (−1,81 p.p.)
 
 ---
