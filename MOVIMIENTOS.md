@@ -1,6 +1,6 @@
 # Movimientos de tasas en Colombia
 
-_Actualizado: 2026-11-26 00:07 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
+_Actualizado: 2026-11-26 16:39 (hora Colombia). Fuente: Superintendencia Financiera vía datos.gov.co._
 
 ## TRM
 
@@ -10,16 +10,16 @@ _Actualizado: 2026-11-26 00:07 (hora Colombia). Fuente: Superintendencia Financi
 
 **28,34% E.A.** vigente desde 2026-11-01 (interés bancario corriente 18,89%).
 
-## CDT: mejores tasas (últimos 7 días al 2026-11-23)
+## CDT: mejores tasas (últimos 7 días al 2026-11-24)
 
 | Plazo | Promedio del sistema | Cambio 4 sem. | Mejor tasa | Entidad |
 |---|---|---|---|---|
-| 30 días | 9,48% | −0,16 p.p. | 9,75% | Bancolombia |
-| 60 días | 9,76% | +0,10 p.p. | 10,55% | Banco de Bogotá |
-| 90 días | 10,70% | +0,09 p.p. | 12,09% | Mibanco |
-| 180 días | 11,31% | −0,21 p.p. | 12,91% | La Hipotecaria |
-| 360 días | 12,30% | −0,30 p.p. | 13,36% | Koa CF |
-| Más de 360 días | 12,98% | +0,02 p.p. | 13,51% | Finandina BIC |
+| 30 días | 9,51% | −0,13 p.p. | 9,70% | Bancolombia |
+| 60 días | 9,81% | +0,17 p.p. | 10,54% | Banco de Bogotá |
+| 90 días | 10,77% | +0,17 p.p. | 12,10% | Mibanco |
+| 180 días | 11,36% | −0,11 p.p. | 12,92% | La Hipotecaria |
+| 360 días | 12,33% | −0,32 p.p. | 13,37% | Koa CF |
+| Más de 360 días | 12,83% | −0,10 p.p. | 13,49% | Itaú |
 
 ## Crédito de consumo (semana al 2026-11-13)
 
@@ -38,15 +38,15 @@ _Actualizado: 2026-11-26 00:07 (hora Colombia). Fuente: Superintendencia Financi
 - **Banco Davivienda**, Tarjeta de crédito \(ingresos ≤ 2 SMMLV\): 22,82% (+10,47 p.p.)
 - **Banco Davivienda**, Tarjeta de crédito \(ingresos \> 2 SMMLV\): 22,57% (+9,06 p.p.)
 - **Tuya**, Consumo de bajo monto: 63,56% (+3,36 p.p.)
+- **AV Villas**, CDT 90 días: 11,00% (+2,44 p.p.)
 - **Banco Serfinanza**, Libranza: 22,97% (+2,03 p.p.)
-- **Nu Colombia CF**, Consumo de bajo monto: 49,78% (+1,44 p.p.)
 
 ## Mayores bajadas (4 semanas)
 
 - **Banco de Bogotá**, Consumo de bajo monto: 57,66% (−3,18 p.p.)
 - **Financiera Juriscoop CF**, Libranza: 22,27% (−2,82 p.p.)
 - **Bancolombia**, Vehículo: 16,26% (−2,70 p.p.)
-- **Banco Caja Social**, CDT 360 días: 10,27% (−2,04 p.p.)
+- **Banco Caja Social**, CDT 360 días: 10,28% (−2,06 p.p.)
 - **Bancoomeva**, Libre inversión: 21,98% (−1,81 p.p.)
 
 ---
